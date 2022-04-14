@@ -24,6 +24,7 @@ export default function Questions() {
 
     <Options 
       q={qs[qnum].title}
+      img={qs[qnum].pics}
       arr={qs[qnum].options}
     />
   

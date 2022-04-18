@@ -73,6 +73,15 @@
   max-width: 800px;
 }
 
+.gridab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  color: #eaeaea;
+}
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
@@ -119,6 +128,19 @@
   height: 50px;
 }
 
+.about {
+  background-image: url('/imgs/backgrounds/oceecobg_dark.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (max-width: 600px) {
   .grid {

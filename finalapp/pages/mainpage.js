@@ -9,6 +9,8 @@ export default function mainpage() {
     
     return (
       <div className={styles.container}>
+          <main className={styles.main}>
+
          <div className={styles.grid}>
             <h2>How Plastics Affect The Ocean</h2>
         </div>     
@@ -28,14 +30,12 @@ export default function mainpage() {
                 ()=>r.push("/questions")
                 }>Let's Learn</button>
             </div>
-            
-       
-    </div>
+        </div>
 
       
 
 
-
-      </div>
+        </main>
+    </div>
   )
 }

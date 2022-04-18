@@ -4,18 +4,21 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 
-export default function mainpage() {
+export default function aboutUs() {
 
     const r = useRouter();
+
     
     return (
+    <div className={styles.about}>
       <div className={styles.container}>
-         <div className={styles.grid}>
+
+        <div className={styles.gridab}>
             <h2>About Us</h2>
         </div>     
        
 
-        <div classname="mainpage_content">
+        <div className="aboutus_content">
         <div className={styles.grid}>
             
         </div>
@@ -74,10 +77,9 @@ export default function mainpage() {
        
     </div>
 
-      
-
-
 
       </div>
+    
+    </div>
   )
 }

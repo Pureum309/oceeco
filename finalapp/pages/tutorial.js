@@ -7,10 +7,27 @@ export default function tutorial() {
 
     return (
         <div className={styles.container}>
-            <div className={styles.grid}>
-                <h2>Tutorial</h2>
-            </div>    
-        </div>
+            <main className={styles.main}>
+  
+           <div className={styles.grid}>
+              <h2>Tutorial</h2>
+          </div>     
+         
+  
+          <div classname="mainpage_content">
+              
+  
+              <div className={styles.grid}>
+                  <button onClick={
+                  ()=>r.push("/tutorial")
+                  }>Next</button>
+              </div>
+          </div>
+  
+        
+  
+  
+          </main>
+      </div>
     )
-
 }

@@ -13,10 +13,16 @@ export default function Home() {
 
       <main className={styles.main}>
 
-      <img src="../oceeco/finalapp/public/imgs/logo/logotransparent.png" />
-     
+<Image 
+  src="/imgs/logo/logotransparent.png"
+  alt="Oceeco Logo"
+  width={185}
+  height={235}
+  />
+      {/* <img src="./imgs/logo/logotransparent.png" /> */}
+
          <button onClick={
-              ()=>r.push("/letsgo")
+              ()=>r.push("/mainpage")
             }>Let's Go</button>
 
         <button onClick={

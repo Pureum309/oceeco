@@ -29,9 +29,23 @@ export default function Home() {
       </div>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <div className={styles.grid}>
+          <img 
+          className={styles.mainlogo}
+          src="/logo/mainlogo.png" />
+        </div>
+
+        <div>
+          <div className={styles.buttonintro}>
+            <p>Let's Go</p>
+          </div>
+          <div className={styles.buttonintro}>
+            <p>Tutorial</p>
+          </div>
+          <div className={styles.buttonintro}>
+            <p>About Us</p>
+          </div>
+        </div>
 
         <p className={styles.description}>
           Get started by editing{' '}

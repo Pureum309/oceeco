@@ -119,6 +119,20 @@
   height: 50px;
 }
 
+.mainlogo {
+  display: flex;
+  width: 70%;
+  height: 70%;
+  padding: 1em;
+}
+
+.buttonintro {
+  height: 2.5em;
+  padding: .1em 0;
+  margin: .5em;
+  text-align: center;
+  background-color: #CAEBFC;
+}
 
 @media (max-width: 600px) {
   .grid {
@@ -126,3 +140,4 @@
     flex-direction: column;
   }
 }
+

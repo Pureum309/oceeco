@@ -7,7 +7,7 @@ body {
     background: url('/imgs/backgrounds/oceecobg_light.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-
+    overflow: hidden;
 }
 
 a {

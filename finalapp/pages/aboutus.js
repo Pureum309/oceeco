@@ -14,7 +14,7 @@ export default function aboutUs() {
       <div className={styles.container}>
 
         <div className={styles.gridab}>
-            <h2>About Us</h2>
+            <Head>About Us</Head>
         </div>     
        
 
@@ -23,54 +23,58 @@ export default function aboutUs() {
             
         </div>
 
-            <div className={styles.grid}>
-                <button onClick={
-                ()=>r.push("/can")
-                }>
-                    <Image 
-                        src="/imgs/about/about__can_seahorse.png" 
-                        alt="Can Seahorse"
-                        width={100}
-                        height={100}
-                    />
-                </button>
+            <div className={styles.gridcontainer}>
+                <div className={styles.box}>
+                    <button onClick={
+                    ()=>r.push("/can")
+                    }>
+                        <Image 
+                            src="/imgs/about/about__can_seahorse.png" 
+                            alt="Can Seahorse"
+                            width={100}
+                            height={100}
+                        />
+                    </button>
 
-                <button onClick={
-                ()=>r.push("/sarah")
-                }>
-                    <Image 
-                        src="/imgs/about/about__sarah_whale.png" 
-                        alt="Sarah Whale"
-                        width={100}
-                        height={100}
-                    />
-                </button>
+                    <button onClick={
+                    ()=>r.push("/sarah")
+                    }>
+                        <Image 
+                            src="/imgs/about/about__sarah_whale.png" 
+                            alt="Sarah Whale"
+                            width={100}
+                            height={100}
+                        />
+                    </button>
 
+                </div>
             </div>
 
 
-            <div className={styles.grid}>
-                <button onClick={
-                ()=>r.push("/kc")
-                }>
-                    <Image 
-                        src="/imgs/about/about__kc_jellyfish.png" 
-                        alt="KC Jellyfish"
-                        width={100}
-                        height={100}
-                    />
-                </button>
+            <div className={styles.gridcontainer}>
+                <div className={styles.box}>
+                    <button onClick={
+                    ()=>r.push("/kc")
+                    }>
+                        <Image 
+                            src="/imgs/about/about__kc_jellyfish.png" 
+                            alt="KC Jellyfish"
+                            width={100}
+                            height={100}
+                        />
+                    </button>
 
-                <button onClick={
-                ()=>r.push("/heidi")
-                }>
-                    <Image 
-                        src="/imgs/about/about__heidi_nemo.png" 
-                        alt="Heidi Clownfish"
-                        width={100}
-                        height={100}
-                    />
-                </button>
+                    <button onClick={
+                    ()=>r.push("/heidi")
+                    }>
+                        <Image 
+                            src="/imgs/about/about__heidi_nemo.png" 
+                            alt="Heidi Clownfish"
+                            width={100}
+                            height={100}
+                        />
+                    </button>
+                </div>
             </div>
 
             

@@ -128,6 +128,15 @@
   height: 50px;
 }
 
+.mainlogo {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  padding: 1em;
+	transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+}
+
 .buttonintro {
   height: 40px;
   width: 150px;
@@ -155,9 +164,23 @@
   align-items: center;
 }
 
+
+@keyframes float {
+	0% {
+				transform: translatey(0px);
+	}
+	50% {
+			transform: translatey(-20px);
+	}
+	100% {
+			transform: translatey(0px);
+	}
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
 }
+

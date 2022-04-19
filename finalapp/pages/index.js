@@ -12,16 +12,35 @@ export default function Home() {
     <div className={styles.container}>
 
       <main className={styles.main}>
+        <div className={styles.grid}>
+          <img 
+          className={styles.mainlogo}
+          src="/logo/mainlogo.png" />
+        </div>
 
-<Image 
-  src="/imgs/logo/logotransparent.png"
-  alt="Oceeco Logo"
-  width={185}
-  height={235}
-  />
-      {/* <img src="./imgs/logo/logotransparent.png" /> */}
+        <div>
+          <div className={styles.buttonintro}
+          onClick={
+            ()=>r.push("/mainpage")
+          }>
+            Let's Go
+          </div>
+          <div className={styles.buttonintro}
+          onClick={
+            ()=>r.push("/tutorial")
+          }>
+            Tutorial
+          </div>
+          <div className={styles.buttonintro}
+          onClick={
+            ()=>r.push("/aboutus")
+          }>
+            About Us
+          </div>
+        </div>
 
-         <button onClick={
+
+         {/* <button onClick={
               ()=>r.push("/mainpage")
             }>Let's Go</button>
 
@@ -31,7 +50,7 @@ export default function Home() {
 
         <button onClick={
               ()=>r.push("/aboutus")
-            }>About Us</button>
+            }>About Us</button> */}
 
      
 
@@ -73,7 +92,7 @@ export default function Home() {
             </p>
           </a> */}
 
-          <a
+          {/* <a
             href="/questions"
             className={styles.card}
           >
@@ -84,7 +103,7 @@ export default function Home() {
             <button onClick={
               ()=>r.push("/questions")
             }>Go to question</button>
-          </a>
+          </a> */}
 
         </div>
       </main>

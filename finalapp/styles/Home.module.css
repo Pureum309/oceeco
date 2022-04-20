@@ -4,11 +4,11 @@
 
 .main {
   min-height: 100vh;
-  padding-bottom: 15em;
+  padding-top: 5em;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   
 }
@@ -164,6 +164,14 @@
   align-items: center;
 }
 
+.heading {
+  text-align: center;
+  color: #002458;
+}
+
+.mainpage_content {
+  padding: 0 1em 2em 1em;
+}
 
 @keyframes float {
 	0% {

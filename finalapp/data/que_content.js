@@ -8,8 +8,9 @@ export const imgs = {
 export const qs = [
     {
         title:"Select the region you want to learn",
-        options: ["Tropical", "Temperate", "cold"],
-        pics: [ "./imgs/climmates/climate__tropical.png", "./imgs/climmates/climate__temperate.png","./imgs/climmates/climate__cold.png"]
+        options: ["Tropical", "Temperate", "Cold"],
+        pics: [ "./imgs/climmates/climate__tropical.png", "./imgs/climmates/climate__temperate.png","./imgs/climmates/climate__cold.png"],
+        background: ["#FFECA8", "#91DEA6", "#86D4FD"]
     }, 
     {
         title:"What animals are affected in the tropical region",

@@ -6,30 +6,38 @@ import { ChangeAnswer } from '../../data/que_content';
 
 
 const OpCont = styled.div `
-    min-height: 100vh;
-    padding: 4rem 0;
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 `;
 
 const OpQueTitle = styled.h3 ``;
 
-const OpQueButton = styled.button `
+const OpQueButton = styled.div `
     img {
-        width: 100px;
+        width: 60px;
+        padding-left: 5px;
     }
-    padding: 50px;
-    text-align: center;
+    p {
+      text-align: center;
+      padding-left: 20px;
+    }
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height:80px;
+    padding: 10px; 
     margin: 10px;
+    border-radius: 8px;
 `;
 
 export default function Options({
   q='What is your favourite food?',
   arr=[],
-  img=[]
+  img=[],
+  background=[]
 }){
 
   const r = useRouter();
@@ -42,8 +50,8 @@ export default function Options({
   
   return <OpCont>
     <OpQueTitle>{q}</OpQueTitle>
-    {arr.map((o,i)=><OpQueButton onClick={
+    {arr.map((o,i)=><OpQueButton style={{background:background[i]}} onClick={
       ()=>ChangeAnswer(o, qnum)
-    }><img src={img[i]} />{o}</OpQueButton>)}
+    }><img src={img[i]} /><p>{o}</p></OpQueButton>)}
   </OpCont>
 }

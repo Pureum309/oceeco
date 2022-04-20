@@ -19,6 +19,7 @@ export default function Questions() {
   
   return (
     <div className={styles.container}>
+    <div className={styles.main}>
 
     {/* Start from Heare Sarah */}
 
@@ -26,6 +27,7 @@ export default function Questions() {
       q={qs[qnum].title}
       img={qs[qnum].pics}
       arr={qs[qnum].options}
+      background={qs[qnum].background}
     />
   
   {/* When reach last question hide the button */}
@@ -49,6 +51,7 @@ export default function Questions() {
   }
 
       
+    </div>
     </div>
   )
 }

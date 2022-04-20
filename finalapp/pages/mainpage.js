@@ -11,30 +11,28 @@ export default function mainpage() {
       <div className={styles.container}>
           <main className={styles.main}>
 
-         <div className={styles.grid}>
-            <h2>How Plastics Affect The Ocean</h2>
-        </div>     
-       
+            <h2 className={styles.heading}
+            >How Plastics Affect The Ocean</h2>
 
-        <div classname="mainpage_content">
-            We love ice cream cups and ballons, but did you know that
-            if we don't throw them away properly that it can hurt our 
-            ocean and the animal in it?
-            <br></br>
-            <br></br>
-            Learn what different plastics can do to our friends under
-            the sea.
-
-            <div className={styles.grid}>
-                <button onClick={
-                ()=>r.push("/questions")
-                }>Let's Learn</button>
-            </div>
+        <div className={styles.mainpage_content}>
+            <p>
+                We love ice cream cups and ballons, but did you know that
+                if we don't throw them away properly that it can hurt our 
+                ocean and the animals in it?
+                <br></br>
+                <br></br>
+                Learn what different plastics can do to our friends under
+                the sea.
+            </p>
+            
         </div>
-
-      
-
-
+        <div className={styles.grid}>
+                <div className={styles.buttonintro}
+                    onClick={
+                    ()=>r.push("/questions")
+                    }>Let's Learn
+                </div>
+            </div>
         </main>
     </div>
   )

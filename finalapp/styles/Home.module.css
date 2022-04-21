@@ -4,12 +4,13 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding-top: 5em;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  
 }
 
 .footer {
@@ -73,6 +74,15 @@
   max-width: 800px;
 }
 
+.gridab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  color: #eaeaea;
+}
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
@@ -119,6 +129,61 @@
   height: 50px;
 }
 
+.mainlogo {
+  justify-self: flex-start;
+  width: 50%;
+  height: 50%;
+	transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+}
+
+.buttonintro {
+  height: 40px;
+  width: 150px;
+  margin: .5em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px; 
+  text-align: center;
+  background-color: #CAEBFC;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgb(173, 173, 173);
+}
+
+.about {
+  background-image: url('/imgs/backgrounds/oceecobg_dark.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  color: #002458;
+}
+
+.mainpage_content {
+  padding: 0 1em 2em 1em;
+}
+
+@keyframes float {
+	0% {
+				transform: translatey(0px);
+	}
+	50% {
+			transform: translatey(-20px);
+	}
+	100% {
+			transform: translatey(0px);
+	}
+}
 
 @media (max-width: 600px) {
   .grid {
@@ -126,3 +191,4 @@
     flex-direction: column;
   }
 }
+

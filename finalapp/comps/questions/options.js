@@ -28,8 +28,8 @@ const OpQueButton = styled.button `
 
 export default function Options({
   q='What is your favourite food?',
-  arr=[],
-  img=[]
+  img=[],
+  desc=[]
 }){
 
   const r = useRouter();
@@ -42,8 +42,14 @@ export default function Options({
   
   return <OpCont>
     <OpQueTitle>{q}</OpQueTitle>
-    {arr.map((o,i)=><OpQueButton onClick={
-      ()=>ChangeAnswer(o, qnum)
+    {desc.map((o,i)=><OpQueButton onClick={
+      ()=> r.push({
+        pathname:"questions",
+        query:{
+          qnum :Number(qnum) + 1,
+          opt: Number(i),
+        }
+      })
     }><img src={img[i]} />{o}</OpQueButton>)}
   </OpCont>
 }

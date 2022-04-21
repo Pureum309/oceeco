@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 
-import Options from '../../comps/Questions/Options';
+import Options from '../../comps/Questions/options';
 import {GetName, qs} from "../../data/que_content";
 
 export default function Questions() {
@@ -12,9 +12,26 @@ export default function Questions() {
     const r = useRouter();
   
     var {qnum} = r.query;
+    var {opt} = r.query;
   
-    if(qnum === undefined){
+    if (qnum === undefined) {
       qnum = 0;
+    }
+    if (qnum < 0) {
+      qnum = 0;
+    }
+    if (qnum >= qs.length) {
+      qnum = qs.length - 1;
+    }
+
+    if (opt === undefined) {
+      opt = 0;
+    }
+    if (opt < 0) {
+      opt = 0;
+    }
+    if (opt >= qs[qnum].options.length) {
+      opt = qs[qnum].options.length - 1;
     }
   
   return (
@@ -24,8 +41,8 @@ export default function Questions() {
 
     <Options 
       q={qs[qnum].title}
-      img={qs[qnum].pics}
-      arr={qs[qnum].options}
+      img={qs[qnum].options[opt].pics}
+      desc={qs[qnum].options[opt].txts}
     />
   
   {/* When reach last question hide the button */}
@@ -35,7 +52,7 @@ export default function Questions() {
       ()=> r.push({
         pathname:"questions",
         query:{
-          qnum:Number(qnum)+1 >= qs.length ? qs.length -1 : Number(qnum)+1
+          qnum:Number(qnum)+1 >= qs.length ? qs.length -1 : Number(qnum)+1,
         }
       })
     }>Next</button>

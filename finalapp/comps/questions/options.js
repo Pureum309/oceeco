@@ -1,35 +1,50 @@
 import styled from 'styled-components';
 
 import { useRouter } from "next/router";
-import { ChangeAnswer } from '../../data/que_content';
+
 
 
 
 const OpCont = styled.div `
-    min-height: 100vh;
-    padding: 4rem 0;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  min-height: 100vh;
+  padding-top: 4em;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 `;
 
-const OpQueTitle = styled.h3 ``;
+const OpQueTitle = styled.h3 `
+  font-size: 1.5em;
+`;
 
 const OpQueButton = styled.button `
-    img {
-        width: 100px;
-    }
-    padding: 50px;
-    text-align: center;
-    margin: 10px;
+  img {
+    width: 70px;
+    padding-left: 5px;
+  }
+  p {
+  text-align: center;
+  padding-left: 100px;
+  }
+  display: flex;
+  align-items: center;
+  width: 15em;
+  height:9em;
+  padding: 10px; 
+  margin: 10px;
+
+  font-size: 1.1em;
+  border: none;
+  border-radius: 8px;
 `;
 
 export default function Options({
   q='What is your favourite food?',
   img=[],
-  desc=[]
+  desc=[],
+  background=[]
 }){
 
   const r = useRouter();
@@ -42,7 +57,7 @@ export default function Options({
   
   return <OpCont>
     <OpQueTitle>{q}</OpQueTitle>
-    {desc.map((o,i)=><OpQueButton onClick={
+    {desc.map((o,i)=><OpQueButton style={{background:background[i]}} onClick={
       ()=> r.push({
         pathname:"questions",
         query:{

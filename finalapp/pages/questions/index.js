@@ -1,7 +1,7 @@
 import {useRouter} from "next/router";
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/Home.module.css';
 
 import Options from '../../comps/Questions/options';
 import {GetName, qs} from "../../data/que_content";
@@ -39,7 +39,7 @@ export default function Questions() {
 
     {/* Start from Heare Sarah */}
 
-    <Options 
+    <Options
       q={qs[qnum].title}
       img={qs[qnum].options[opt].pics}
       desc={qs[qnum].options[opt].txts}

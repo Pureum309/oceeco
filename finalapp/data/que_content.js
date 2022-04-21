@@ -1,6 +1,3 @@
-export const imgs = {
-    "cold": "http://placekitten.com/100/100"
-}
 
 export const qs = [
     {

@@ -173,6 +173,10 @@
   padding: 0 1em 2em 1em;
 }
 
+.sc-hiMGwR .gxqtJJ:hover {
+  background-color: black;
+}
+
 @keyframes float {
 	0% {
 				transform: translatey(0px);

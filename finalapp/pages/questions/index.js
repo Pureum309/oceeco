@@ -46,7 +46,7 @@ export default function Questions() {
     />
   
   {/* When reach last question hide the button */}
-  {
+  {/* {
     Number(qnum) < qs.length-1 &&
     <button onClick={
       ()=> r.push({
@@ -56,14 +56,14 @@ export default function Questions() {
         }
       })
     }>Next</button>
-  }
+  } */}
 
-  {
+  {/* {
     Number(qnum) === qs.length -1 &&
     <button onClick={
       ()=>r.push("/questions/result")
     }>Finish!!</button>
-  }
+  } */}
 
       
     </div>

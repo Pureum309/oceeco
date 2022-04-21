@@ -43,6 +43,7 @@ export default function Questions() {
       q={qs[qnum].title}
       img={qs[qnum].options[opt].pics}
       desc={qs[qnum].options[opt].txts}
+      background={qs[qnum].background}
     />
   
   {/* When reach last question hide the button */}

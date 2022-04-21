@@ -5,11 +5,11 @@ export const qs = [
         // options: [ "Tropical", "Temperate", "cold"],
         // pics: [ "./imgs/climmates/climate__tropical.png", "./imgs/climmates/climate__temperate.png","./imgs/climmates/climate__cold.png"],
 
-
         options: [{
             txts: [ "Tropical", "Temperate", "cold"],
             pics: [ "./imgs/climmates/climate__tropical.png", "./imgs/climmates/climate__temperate.png","./imgs/climmates/climate__cold.png"]
-        }]
+        }],
+        background: ["#FFECA8", "#91DEA6", "#86D4FD"]
     },
 
     {

@@ -18,26 +18,46 @@ const OpCont = styled.div `
 const OpQueTitle = styled.h3 ``;
 
 const OpQueButton = styled.button `
+    // img {
+    //   width: 60px;
+    // }
+    // p {
+    //   text-align: center;
+
+    // }
+    // height: 10em;
+    // width: 20em;
+    // margin: 20px;
+    // text-align: center;
+    // vertical-align: middle;
+    // line-height: 40px; 
+    // text-align: center;
+    // background-color: #CAEBFC;
+    // border: none;
+    // border-radius: 8px;
+    // box-shadow: 0px 2px 4px rgb(173, 173, 173);
+
     img {
-      width: 80px;
+      width: 60px;
+      padding-left: 5px;
     }
-    height: 10em;
+
+    font-size: 1.10em;
+    display: flex;
+    align-items: center;
     width: 20em;
-    margin: 20px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 40px; 
-    text-align: center;
-    background-color: #CAEBFC;
+    height: 8em;
+    padding: 10px; 
+    margin: 10px;
     border: none;
     border-radius: 8px;
-    box-shadow: 0px 2px 4px rgb(173, 173, 173);
 `;
 
 export default function Options({
   q='What is your favourite food?',
   img=[],
-  desc=[]
+  desc=[],
+  background=[]
 }){
 
   const r = useRouter();
@@ -50,7 +70,7 @@ export default function Options({
   
   return <OpCont>
     <OpQueTitle>{q}</OpQueTitle>
-    {desc.map((o,i)=><OpQueButton onClick={
+    {desc.map((o,i)=><OpQueButton style={{background:background[i]}} onClick={
       ()=> r.push({
         pathname:"questions",
         query:{

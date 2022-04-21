@@ -6,51 +6,38 @@ import { useRouter } from "next/router";
 
 
 const OpCont = styled.div `
-    min-height: 100vh;
-    padding-top: 5em;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  min-height: 100vh;
+  padding-top: 4em;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 `;
 
-const OpQueTitle = styled.h3 ``;
+const OpQueTitle = styled.h3 `
+  font-size: 1.5em;
+`;
 
 const OpQueButton = styled.button `
-    // img {
-    //   width: 60px;
-    // }
-    // p {
-    //   text-align: center;
+  img {
+    width: 70px;
+    padding-left: 5px;
+  }
+  p {
+  text-align: center;
+  padding-left: 100px;
+  }
+  display: flex;
+  align-items: center;
+  width: 15em;
+  height:9em;
+  padding: 10px; 
+  margin: 10px;
 
-    // }
-    // height: 10em;
-    // width: 20em;
-    // margin: 20px;
-    // text-align: center;
-    // vertical-align: middle;
-    // line-height: 40px; 
-    // text-align: center;
-    // background-color: #CAEBFC;
-    // border: none;
-    // border-radius: 8px;
-    // box-shadow: 0px 2px 4px rgb(173, 173, 173);
-
-    img {
-      width: 60px;
-      padding-left: 5px;
-    }
-
-    font-size: 1.10em;
-    display: flex;
-    align-items: center;
-    width: 20em;
-    height: 8em;
-    padding: 10px; 
-    margin: 10px;
-    border: none;
-    border-radius: 8px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 8px;
 `;
 
 export default function Options({

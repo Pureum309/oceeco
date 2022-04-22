@@ -4,7 +4,7 @@
 
 .main {
   min-height: 100vh;
-  padding-top: 5em;
+  /* padding-top: 5em; */
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -130,6 +130,7 @@
 }
 
 .mainlogo {
+  padding-top: 5em;
   justify-self: flex-start;
   width: 50%;
   height: 50%;

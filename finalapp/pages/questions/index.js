@@ -38,6 +38,7 @@ export default function Questions() {
   
   return (
     <div className={styles.container}>
+    <div className={styles.main}>
 
     {/* Start from Heare Sarah */}
         <Options
@@ -67,6 +68,7 @@ export default function Questions() {
       }>Finish!!</button>
     } */}
       
+    </div>
     </div>
   )
 }

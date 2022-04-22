@@ -6,8 +6,6 @@ import { useRouter } from "next/router";
 
 
 const OpCont = styled.div `
-  min-height: 100vh;
-  padding-top: 4em;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -17,27 +15,27 @@ const OpCont = styled.div `
 
 const OpQueTitle = styled.h3 `
   font-size: 1.5em;
+  text-align: center;
 `;
 
 const OpQueButton = styled.button `
-  img {
-    width: 70px;
-    padding-left: 5px;
-  }
-  p {
-  text-align: center;
-  padding-left: 100px;
-  }
-  display: flex;
-  align-items: center;
-  width: 15em;
-  height:9em;
-  padding: 10px; 
-  margin: 10px;
-
-  font-size: 1.1em;
-  border: none;
-  border-radius: 8px;
+img {
+  height: 60px;
+  padding-left: 5px;
+}
+p {
+text-align: center;
+padding-left: 1em;
+font-size: 1.5em;
+}
+display: flex;
+align-items: center;
+width: 250px;
+height:80px;
+padding: 10px; 
+margin: 10px;
+border-radius: 8px;
+border: none;
 `;
 
 export default function Options({
@@ -65,6 +63,6 @@ export default function Options({
           opt: Number(i),
         }
       })
-    }><img src={img[i]} />{o}</OpQueButton>)}
+    }><img src={img[i]} /><p>{o}</p></OpQueButton>)}
   </OpCont>
 }

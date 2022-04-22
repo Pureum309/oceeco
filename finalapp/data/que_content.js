@@ -42,7 +42,7 @@ export const qs = [
 
 var answers = [];
 
-export function ChangeAnswer(n, qnum, opt){
+export function ChangeAnswer(n, qnum){
     answers[qnum] = n;
     console.log(answers);
 }

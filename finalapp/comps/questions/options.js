@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { ChangeAnswer } from '../../data/que_content';
 import { useRouter } from "next/router";
 
 
@@ -56,13 +56,13 @@ export default function Options({
   return <OpCont>
     <OpQueTitle>{q}</OpQueTitle>
     {desc.map((o,i)=><OpQueButton style={{background:background[i]}} onClick={
-      ()=> r.push({
+      ()=> [r.push({
         pathname:"questions",
         query:{
           qnum :Number(qnum) + 1,
           opt: Number(i),
         }
-      })
+      }), ChangeAnswer(o, qnum) ]
     }><img src={img[i]} /><p>{o}</p></OpQueButton>)}
   </OpCont>
 }

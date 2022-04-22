@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import { useRouter } from "next/router";
-import { ChangeAnswer } from '../../data/que_content';
+
 
 
 
@@ -13,7 +13,9 @@ const OpCont = styled.div `
     align-items: center;
 `;
 
-const OpQueTitle = styled.h3 ``;
+const OpQueTitle = styled.h3 `
+  font-size: 1.5em;
+`;
 
 const OpQueButton = styled.div `
     img {

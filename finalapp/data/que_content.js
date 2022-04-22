@@ -1,32 +1,55 @@
 
-
-
-export const imgs = {
-    "cold": "http://placekitten.com/100/100"
-}
-
 export const qs = [
     {
         title:"Select the region you want to learn",
+<<<<<<< HEAD
         options: ["Tropical", "Temperate", "Cold"],
         pics: [ "./imgs/climmates/climate__tropical.png", "./imgs/climmates/climate__temperate.png","./imgs/climmates/climate__cold.png"],
         background: ["#FFECA8", "#91DEA6", "#86D4FD"]
     }, 
+=======
+        // options: [ "Tropical", "Temperate", "cold"],
+        // pics: [ "./imgs/climmates/climate__tropical.png", "./imgs/climmates/climate__temperate.png","./imgs/climmates/climate__cold.png"],
+
+        options: [{
+            txts: [ "Tropical", "Temperate", "cold"],
+            pics: [ "./imgs/climmates/climate__tropical.png", "./imgs/climmates/climate__temperate.png","./imgs/climmates/climate__cold.png"]
+        }],
+        background: ["#FFECA8", "#91DEA6", "#86D4FD"]
+    },
+
+>>>>>>> 31e5536559596664eb8dd273d9405358789de828
     {
         title:"What animals are affected in the tropical region",
-        options: ["Clown Fish", "Green Turtle"],
-        pics: ["./imgs/animals/animal__trop_nemo.png", "./imgs/animals/animal__trop_turtle.png"]
+        // options: ["Clown Fish", "Green Turtle"],
+        // pics: ["./imgs/animals/animal__trop_nemo.png", "./imgs/animals/animal__trop_turtle.png"]
+
+        options: [{
+            txts: ["Clown Fish", "Green Turtle"],
+            pics: ["./imgs/animals/animal__trop_nemo.png", "./imgs/animals/animal__trop_turtle.png"]
+        },
+        {
+            txts: ["Shark", "Dolphin"],
+            pics: ["./imgs/animals/animal__temp__shark.png", "./imgs/animals/animal__temp__dolphin.png"]
+        },
+        {
+            txts: ["Penguin", "Polar Bear"],
+            pics: ["./imgs/animals/animal__cold_penguine.png", "./imgs/animals/animal__cold_polar.png"]
+        }]
     }, 
+
     {
         title:"How does these plastics affect?",
-        options: ["Plastic Bag", "Straw", "Bottle"],
+        options: [{
+        txts: ["Plastic Bag", "Straw", "Bottle"],
         pics: ["./imgs/waste/waste__garbage.png", "./imgs/waste/waste__straw.png", "./imgs/waste/waste__bottle.png"]
+        }]
     }
 ]
 
 var answers = [];
 
-export function ChangeAnswer(n, qnum){
+export function ChangeAnswer(n, qnum, opt){
     answers[qnum] = n;
     console.log(answers);
 }

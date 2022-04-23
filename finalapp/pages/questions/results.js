@@ -1,8 +1,4 @@
-import {useRouter} from "next/router";
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../../styles/Home.module.css';
-
 import { GetAnswer, GetName } from "../../data/que_content";
 
 export default function Qresults(){
@@ -13,15 +9,12 @@ export default function Qresults(){
     return <div className={styles.container}>
     <div className={styles.main}>
 
-        <h3>Result</h3>
-    <div>
-        I see that you are doing {an[0]} and feeling {an[1]}.
-        That's why you are planning to {an[2]}.
-    </div>
-
+        
+    <div className={styles.grid}>
+                 
     {
-        an[0] === "Bad" && 
-        <img src="https://cdn.shopify.com/s/files/1/0079/3287/0756/t/6/assets/pf-90eec9f1--saddogspotthesignsandcheerthemup_500x.jpg?v=1620752484" />
+        an[1] === "Clown Fish" && 
+        <img className={styles.mainlogo} src="./../../imgs/results/result__bottle_nemo.png" />
     }
     {
         an[0] === "Good" && 
@@ -30,9 +23,22 @@ export default function Qresults(){
     }
     {
         an[0] === "Great" && 
-        <img src="https://www.pinkvilla.com/imageresize/happydog.jpg?width=752&format=webp&t=pvorg
-        " />
+        <img src= {result1}/>
     }
+ </div>
+<h3 className={styles.heading}>{an[2]} pokes the insides of {an[1]+"'s"} stomach</h3>
+    <div>
+    Swallowing plastics like {an[2]} caps can hurt the clownfish by poking some of their internal organs and not allow them to breathe.
+        {/* I see that you are doing {an[0]} and feeling {an[1]}.
+        That's why you are planning to {an[2]}. */}
+    </div>
+
+    <div className={styles.buttonintro}
+          onClick={
+            ()=>r.push("/mainpage")
+          }>
+            Learn How to Help
+          </div>
     </div>
     </div>
 }

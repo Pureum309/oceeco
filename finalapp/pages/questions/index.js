@@ -41,32 +41,19 @@ export default function Questions() {
     <div className={styles.main}>
 
     {/* Start from Heare Sarah */}
-        <Options
+        <Options 
           q={qs[qnum].title}
           img={qs[qnum].options[opt].pics}
           desc={qs[qnum].options[opt].txts}
           background={qs[qnum].background}
         />
     
-    {/* When reach last question hide the button */}
-    {/* {
-      Number(qnum) < qs.length-1 &&
-      <button onClick={
-        ()=> r.push({
-          pathname:"questions",
-          query:{
-            qnum:Number(qnum)+1 >= qs.length ? qs.length -1 : Number(qnum)+1,
-          }
-        })
-      }>Next</button>
-    } */}
-
-    {/* {
+    {
       Number(qnum) === qs.length -1 &&
       <button onClick={
         ()=>r.push("/questions/result")
       }>Finish!!</button>
-    } */}
+    }
       
     </div>
     </div>

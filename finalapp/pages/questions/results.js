@@ -10,8 +10,10 @@ export default function Qresults(){
     const an = GetAnswer();
     const nm = GetName();
 
-    return <div>
-        <h3>Hi {nm}</h3>
+    return <div className={styles.container}>
+    <div className={styles.main}>
+
+        <h3>Result</h3>
     <div>
         I see that you are doing {an[0]} and feeling {an[1]}.
         That's why you are planning to {an[2]}.
@@ -31,5 +33,6 @@ export default function Qresults(){
         <img src="https://www.pinkvilla.com/imageresize/happydog.jpg?width=752&format=webp&t=pvorg
         " />
     }
+    </div>
     </div>
 }

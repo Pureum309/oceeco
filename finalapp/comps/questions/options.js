@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ChangeAnswer } from '../../data/que_content';
+import { ChangeAnswer, qs } from '../../data/que_content';
 import { useRouter } from "next/router";
 
 
@@ -52,17 +52,41 @@ export default function Options({
   if(qnum === undefined){
     qnum = 0;
   }
+
+  // function nextToFinish({
+  //   if (qnum < qs) {
+  //     r.push({
+  //       pathname:"questions",
+  //       query:{
+  //         qnum:Number(qnum)+1 >= qs.
+  //         length ? qs.length-1 : Number(qnum)+1
+  //       }
+  //     })
+  //   }
+  // })
   
   return <OpCont>
     <OpQueTitle>{q}</OpQueTitle>
     {desc.map((o,i)=><OpQueButton style={{background:background[i]}} onClick={
-      ()=> [r.push({
-        pathname:"questions",
-        query:{
-          qnum :Number(qnum) + 1,
-          opt: Number(i),
-        }
-      }), ChangeAnswer(o, qnum) ]
+      ()=> 
+      [r.push({
+          pathname:"questions",
+          query:{
+            qnum:Number(qnum)+1 >= qs.
+            length ? qs.length-1 : Number(qnum)+1
+          }
+        }),
+        Number(qnum) === qs.length-1 && r.push("/questions/results"),
+        , ChangeAnswer(o, qnum) ]
     }><img src={img[i]} /><p>{o}</p></OpQueButton>)}
   </OpCont>
 }
+
+
+// ()=> [r.push({
+//   pathname:"questions",
+//   query:{
+//     qnum :Number(qnum) + 1,
+//     opt: Number(i),
+//   }
+// }), ChangeAnswer(o, qnum) ]

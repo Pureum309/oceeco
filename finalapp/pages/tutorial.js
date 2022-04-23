@@ -106,7 +106,7 @@ export default function tutorial() {
     `
 #tut__click{
   position: absolute;
-  top: 305px;
+  top: 333px;
   left: 300px;
 }
     #d1 {

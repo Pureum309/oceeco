@@ -72,8 +72,9 @@ export default function Options({
       [r.push({
           pathname:"questions",
           query:{
-            qnum:Number(qnum)+1 >= qs.
-            length ? qs.length-1 : Number(qnum)+1
+          qnum:Number(qnum)+1 >= qs.
+          length ? qs.length-1 : Number(qnum)+1,
+          opt: Number(i)
           }
         }),
         Number(qnum) === qs.length-1 && r.push("/questions/results"),

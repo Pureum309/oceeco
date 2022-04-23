@@ -1,13 +1,13 @@
 import {useRouter} from "next/router";
 import styles from '../styles/Home.module.css';
-import Script from 'next/script'
 import $ from 'jquery';
+import Head from 'next/head';
 export default function tutorial() {
     const r = useRouter();
     if (process.browser) {
         var aScript = document.createElement('script');
         aScript.type = 'text/javascript';
-        aScript.src = " https://js.stripe.com/v3/";
+        aScript.src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js";
         document.head.appendChild(aScript);
         aScript.onload = () => {
             $(document).ready(function(){
@@ -41,22 +41,19 @@ export default function tutorial() {
 
 
         <div className={styles.container}>
-
+        <Head>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'/>
+          </Head>
             <main className={styles.main}>
-                
-           <div className={styles.grid}>
-              <h2>Tutorial</h2>
-          </div>     
-          <div className="mainpage_content">
-              <div className={styles.grid}>
-                  <button id="btn">Next</button>
-              </div>
-            
-          </div>
+
           <div id="group">
-          <button id="next">next</button>
+          <button id="prev"><i className="fi fi-rr-angle-left"></i></button>
     <div id="divs">
     <div id="d1">
+    
+    <h2>Tap Start</h2>
+              <a>to start answering questions</a>
+    
     <img  src="imgs/logo/mainlogo.png" />
             <button className="buttontutorial">
             Let's Go
@@ -69,7 +66,19 @@ export default function tutorial() {
           </button>
         </div>
        
+        <div id="d3">
+        
+              <c>See the result on how it can affect</c>
+              <h2>the ocean and the living things in it:</h2>
+   
+    <img  src="imgs/tutorials/tutorial_tut_whale.png"/>
+    </div>
+
     <div id="d2">
+    
+              <h2>Tap your choice on</h2>
+              <b>each of the 3 questions:</b>
+              
             <button className="buttontutorial2">
             <img  src="imgs/climmates/climate__tropical.png"/>
             <p>Tropical</p>
@@ -77,30 +86,34 @@ export default function tutorial() {
           <button  className="buttontutorial3">
           <img  src="imgs/climmates/climate__temperate.png"/>
             <p>Temperate</p>
+            <img id="tut__click" src="imgs/tutorials/tut__click.png"/>
           </button>
           <button className="buttontutorial4">
           <img  src="imgs/climmates/climate__cold.png"/>
             <p>Cold</p>
           </button></div>
-    <div id="d3">
-    <img  src="imgs/tutorials/tutorial_tut_whale.png"/>
-    </div>
 
 </div>
 
-<button id="prev">prev</button>
+<button id="next"><i className="fi fi-rr-angle-right"/></button>
 </div>     
           </main>
           <main>
-        <h1>Nội dung trang chủ</h1>
+        <h1>Homepage Content</h1>
       </main>
 <style jsx>
     {
     `
+#tut__click{
+  position: absolute;
+  top: 305px;
+  left: 300px;
+}
     #d1 {
       display: grid;
       place-items:  center;
       width:400px;
+      margin-right: -20px;
       }
       #d1 img{
         width:40%;
@@ -126,7 +139,12 @@ export default function tutorial() {
 #d2{
   display:grid;
   margin-left: 65px;
-  margin-right:65px;
+  margin-right:45px;
+  place-items:  center;
+  
+}
+#d2 h2{
+  margin-top: 100px;
 }
 .buttontutorial2{
   width: 250px;
@@ -136,6 +154,7 @@ export default function tutorial() {
   border-radius: 8px;
   border: none;
   background: #FFECA8;
+  position: relative;
 }
 .buttontutorial2 img {
   float:left;
@@ -187,42 +206,81 @@ export default function tutorial() {
   margin-right:70px;
 }
 #d3 img {
-  with:300px;
+  width:300px;
   height:250px;
-  margin:20px;
+  margin:50px;
+}
+#d3{
+  margin-right: -20px;
+  place-items:  center;
+  display:grid;
 }
 #prev{
-  margin-top:150px;
-  with:50px;
+  margin-top:250px;
+  width:50px;
   height:50px;
-  color: white;
-  border-radius: 50%;
+  color: #3C99DC ;
+  background-color: white;
+  border: 0px;
+  
 }
 #next{
-  margin-top:150px;
-  with:50px;
+  margin-top:250px;
+  width:50px;
   height:50px;
-  color: white;
-  border-radius: 50%;
+  color: #3C99DC;
+  background-color: white;
+  border: 0px;
+
+  
 }
 
+#next i{
+  font-size:50px;
+
+}
+
+#prev i{
+  font-size:50px;
+  
+}
+
+#d1 a{
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+#d3 c{
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+#d2 b{
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin: 0px;
+}
     `
     }
 </style>
 
-          <Script  strategy="afterInteractive" >
-  {` 
-      document.querySelector('#group').style.visibility="hidden";
-      document.getElementById("btn").addEventListener("click", remove);
-      function remove(){
-      document.querySelector('.mainpage_content').style.display="none";;
-      document.querySelector('#group').style.visibility="visible";
-      };
-
-   
-    
-  `}
-           </Script>
       </div>
       
     )

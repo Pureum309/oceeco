@@ -54,6 +54,7 @@ export default function tutorial() {
     <h2>Tap Start</h2>
               <a>to start answering questions</a>
     
+    
     <img  src="imgs/logo/mainlogo.png" />
             <button className="buttontutorial">
             Let's Go
@@ -64,14 +65,37 @@ export default function tutorial() {
           <button className="buttontutorial">
             About Us
           </button>
+          <i className="Dots">
+      <span className="Dotb"></span>
+      <span className="Dot"> </span>
+      <span className="Dot"></span>
+    </i>
+
         </div>
        
         <div id="d3">
         
               <c>See the result on how it can affect</c>
               <h2>the ocean and the living things in it:</h2>
-   
-    <img  src="imgs/tutorials/tutorial_tut_whale.png"/>
+             
+   <p >
+   <img  src="imgs/tutorials/tutorial_tut_whale.png"/>
+   </p>
+
+
+    <a>Starving</a>
+
+    <button  className="buttontutorial"onClick={
+            ()=>r.push("/questions")
+          }>
+            Let's Go
+          </button>
+    <i className="Dotss">
+      <span className="Dot"></span>
+      <span className="Dot"> </span>
+      <span className="Dotb"></span>
+    </i>
+          
     </div>
 
     <div id="d2">
@@ -91,7 +115,14 @@ export default function tutorial() {
           <button className="buttontutorial4">
           <img  src="imgs/climmates/climate__cold.png"/>
             <p>Cold</p>
-          </button></div>
+          </button>
+          <i className="Dots">
+      <span className="Dot"></span>
+      <span className="Dotb"> </span>
+      <span className="Dot"></span>
+    </i>
+          </div>
+          
 
 </div>
 
@@ -108,6 +139,7 @@ export default function tutorial() {
   position: absolute;
   top: 333px;
   left: 300px;
+  
 }
     #d1 {
       display: grid;
@@ -206,15 +238,80 @@ export default function tutorial() {
   margin-right:70px;
 }
 #d3 img {
-  width:300px;
-  height:250px;
-  margin:50px;
+  width:230px;
+  height:180px;
+  top: 60px;
+  left:40px;
+  position: absolute;
+
 }
+
+#d3 p{
+  position: relative;
+  background: #CAEBFC;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display:block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px  5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 10px  5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 10px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0px 10px 5px  rgba(0,0,0,0.6);
+}
+
+#d3 a{
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
 #d3{
   margin-right: -20px;
   place-items:  center;
   display:grid;
+
 }
+
+.Dots{
+position: absolute;
+display: block;
+margin-top: 800px;
+}
+
+.Dotss{
+  position: absolute;
+display: block;
+margin-top: 720px;
+
+}
+
+.Dot{
+  width: 20px;
+  height:20px;
+  border-radius:50%;
+  display: inline-block;
+  margin: 5px;
+  background-color: #C4C4C4;
+}
+
+.Dotb{
+  width: 20px;
+  height:20px;
+  border-radius:50%;
+  display: inline-block;
+  margin: 5px;
+  background-color: #002458;
+}
+
 #prev{
   margin-top:250px;
   width:50px;
@@ -277,6 +374,7 @@ export default function tutorial() {
   font-weight: bold;
   margin: 0px;
 }
+
     `
     }
 </style>

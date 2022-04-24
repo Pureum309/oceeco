@@ -1,3 +1,4 @@
+import {useRouter} from "next/router";
 import styles from '../../styles/Home.module.css';
 import { GetAnswer, GetName } from "../../data/que_content";
 
@@ -5,6 +6,8 @@ export default function Qresults(){
 
     const an = GetAnswer();
     const nm = GetName();
+
+    const r = useRouter();
 
     return <div className={styles.container}>
     <div className={styles.main}>
@@ -321,7 +324,7 @@ export default function Qresults(){
 
     <div className={styles.buttonintro}
           onClick={
-            ()=>r.push("/mainpage")
+            ()=>r.push("/learnmore")
           }>
             Learn How to Help
           </div>

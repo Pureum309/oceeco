@@ -195,6 +195,15 @@
   font-size: 1.10em;
 }
 
+.firstcap {
+  text-transform: capitalize;
+}
+
+.resultsdesc {
+  margin: 1em;
+  text-align: center;
+}
+
 
 @keyframes float {
 	0% {

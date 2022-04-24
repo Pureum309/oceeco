@@ -18,15 +18,15 @@ export const qs = [
         // pics: ["./imgs/animals/animal__trop_nemo.png", "./imgs/animals/animal__trop_turtle.png"]
 
         options: [{
-            txts: ["Clown Fish", "Green Turtle"],
+            txts: ["clownfish", "green turtle"],
             pics: ["./imgs/animals/animal__trop_nemo.png", "./imgs/animals/animal__trop_turtle.png"]
         },
         {
-            txts: ["Shark", "Dolphin"],
+            txts: ["shark", "dolphin"],
             pics: ["./imgs/animals/animal__temp__shark.png", "./imgs/animals/animal__temp__dolphin.png"]
         },
         {
-            txts: ["Penguin", "Polar Bear"],
+            txts: ["penguin", "polar bear"],
             pics: ["./imgs/animals/animal__cold_penguine.png", "./imgs/animals/animal__cold_polar.png"]
         }]
     }, 
@@ -34,7 +34,7 @@ export const qs = [
     {
         title:"How does these plastics affect?",
         options: [{
-        txts: ["Plastic Bag", "Plastic Straw", "Plastic Bottle"],
+        txts: ["plastic bag", "plastic straw", "plastic bottle"],
         pics: ["./imgs/waste/waste__garbage.png", "./imgs/waste/waste__straw.png", "./imgs/waste/waste__bottle.png"]
         }]
     }

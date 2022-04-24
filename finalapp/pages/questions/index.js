@@ -53,7 +53,7 @@ export default function Questions() {
         Number(qnum, opt) < qs.length &&
         <button onClick={
           ()=> history.back()
-        }> Back </button>
+        }>Back</button>
       }
     </div>
 

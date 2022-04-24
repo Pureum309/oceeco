@@ -8,31 +8,114 @@ export default function Qresults(){
 
     return <div className={styles.container}>
     <div className={styles.main}>
+{/* CLOWNFISH */}
+    {
+        an[1] === "clownfish" && an[2] === "plastic bottle" &&
+        <div className={styles.grid}>
+            <img className={styles.mainlogo} src="./../../imgs/results/result__bottle_nemo.png" />
+            
+            <h3 className={styles.heading}><span className={styles.firstcap}>{an[2]}s</span> poke the insides of a {an[1]}'s stomach</h3>
+            
+            <div>
+                <p className={styles.resultsdesc}>
+                Swallowing plastics like bottle caps can hurt the {an[1]} by poking some of their internal organs and not allow them to breathe.
+                </p>
+            </div>
+        </div>
+    }
 
-        
-    <div className={styles.grid}>
-                 
     {
-        an[1] === "Clown Fish" && 
-        <img className={styles.mainlogo} src="./../../imgs/results/result__bottle_nemo.png" />
+        an[1] === "clownfish" && an[2] === "plastic bag" &&
+        <div className={styles.grid}>
+            <img className={styles.mainlogo} src="./../../imgs/results/result__garbage_nemo.png" />
+            
+            <h3 className={styles.heading}><span className={styles.firstcap}>{an[2]}s</span> traps them and causes them to drown</h3>
+            
+            <div>
+                <p className={styles.resultsdesc}>
+                    <span className={styles.firstcap}>{an[1]}</span> can get trapped in plastic nets or large pile of plastic bags. 
+                    <br></br>
+                    <br></br>
+                    Getting trapped takes them away from their home and family. It can also hurt them badly.
+                </p>
+            </div>
+        </div>
     }
-    {
-        an[0] === "Good" && 
-        <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2021/12/30151747/Pembroke-Welsh-Corgi-smiling-and-happy-outdoors.jpeg
-        " />
-    }
-    {
-        an[0] === "Great" && 
-        <img src= {result1}/>
-    }
- </div>
-<h3 className={styles.heading}>{an[2]} pokes the insides of {an[1]+"'s"} stomach</h3>
-    <div>
-    Swallowing plastics like {an[2]} caps can hurt the clownfish by poking some of their internal organs and not allow them to breathe.
-        {/* I see that you are doing {an[0]} and feeling {an[1]}.
-        That's why you are planning to {an[2]}. */}
-    </div>
 
+    {
+        an[1] === "clownfish" && an[2] === "plastic straw" &&
+        <div className={styles.grid}>
+            <img className={styles.mainlogo} src="./../../imgs/results/result__straw_nemo.png" />
+            
+            <h3 className={styles.heading}><span className={styles.firstcap}>{an[2]}s</span> can cause them to starve</h3>
+            
+            <div>
+                <p className={styles.resultsdesc}>
+                Floating plastics like straws easily get cut into small pieces. These might be eaten by the {an[1]}.
+                <br></br>
+                <br></br>
+                They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
+                </p>
+            </div>
+        </div>
+    }
+{/* TURTLE */}
+    {
+        an[1] === "green turtle" && an[2] === "plastic bottle" &&
+        <div className={styles.grid}>
+            <img className={styles.mainlogo} src="./../../imgs/results/result__bottle_turtle.png" />
+            
+            <h3 className={styles.heading}><span className={styles.firstcap}>{an[2]}s</span> poke the insides of a {an[1]}'s stomach</h3>
+            
+            <div>
+                <p className={styles.resultsdesc}>
+                Swallowing plastics like bottle caps can hurt the {an[1]} by poking some of their internal organs and not allow them to breathe.
+                </p>
+            </div>
+        </div>
+    }
+
+    {
+        an[1] === "green turtle" && an[2] === "plastic bag" &&
+        <div className={styles.grid}>
+            <img className={styles.mainlogo} src="./../../imgs/results/result__garbage_turtle.png" />
+            
+            <h3 className={styles.heading}><span className={styles.firstcap}>{an[2]}s</span> traps them and causes them to drown</h3>
+            
+            <div>
+                <p className={styles.resultsdesc}>
+                    <span className={styles.firstcap}>{an[1]+"s"}</span> can get trapped in plastic nets or large pile of plastic bags. 
+                    <br></br>
+                    <br></br>
+                    Getting trapped takes them away from their home and family. It can also hurt them badly.
+                </p>
+            </div>
+        </div>
+    }
+
+    {
+        an[1] === "green turtle" && an[2] === "plastic straw" &&
+        <div className={styles.grid}>
+            <img className={styles.mainlogo} src="./../../imgs/results/result__straw_turtle.png" />
+            
+            <h3 className={styles.heading}><span className={styles.firstcap}>{an[2]}s</span> can cause them to starve</h3>
+            
+            <div>
+                <p className={styles.resultsdesc}>
+                Floating plastics like straws easily get cut into small pieces. These might be eaten by the {an[1]}.
+                <br></br>
+                <br></br>
+                They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
+                </p>
+            </div>
+        </div>
+    }
+
+{/* SHARK */}
+
+
+  
+    
     <div className={styles.buttonintro}
           onClick={
             ()=>r.push("/mainpage")

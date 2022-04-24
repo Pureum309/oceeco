@@ -178,6 +178,23 @@
   background-color: black;
 }
 
+.backbutton {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.backbutton button {
+  width: 100px;
+  height:50px;
+  padding: 10px; 
+  border-radius: 8px;
+  border: none;
+}
+
+
 @keyframes float {
 	0% {
 				transform: translatey(0px);

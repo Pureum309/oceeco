@@ -34,7 +34,7 @@ export const qs = [
     {
         title:"How does these plastics affect?",
         options: [{
-        txts: ["Plastic Bag", "Straw", "Bottle"],
+        txts: ["Plastic Bag", "Plastic Straw", "Plastic Bottle"],
         pics: ["./imgs/waste/waste__garbage.png", "./imgs/waste/waste__straw.png", "./imgs/waste/waste__bottle.png"]
         }]
     }

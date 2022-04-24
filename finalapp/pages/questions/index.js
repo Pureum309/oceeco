@@ -15,6 +15,7 @@ export default function Questions() {
   
     var {qnum} = r.query;
     var {opt} = r.query;
+    var {preOpt} = r.query;
   
     if (qnum === undefined) {
       qnum = 0;
@@ -48,12 +49,17 @@ export default function Questions() {
           background={qs[qnum].background}
         />
     
-    {
-      Number(qnum) === qs.length -1 &&
-      <button onClick={
-        ()=>r.push("/questions/result")
-      }>Finish!!</button>
-    }
+    <div className={styles.backbutton}>
+      {
+        Number(qnum, opt) < qs.length &&
+        <button onClick={
+          ()=> history.back()
+        }> Back </button>
+      }
+    </div>
+
+
+  
       
     </div>
     </div>

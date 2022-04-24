@@ -19,23 +19,23 @@ const OpQueTitle = styled.h3 `
 `;
 
 const OpQueButton = styled.button `
-img {
-  height: 60px;
-  padding-left: 5px;
-}
-p {
-text-align: center;
-padding-left: 1em;
-font-size: 1.5em;
-}
-display: flex;
-align-items: center;
-width: 250px;
-height:80px;
-padding: 10px; 
-margin: 10px;
-border-radius: 8px;
-border: none;
+  img {
+    height: 60px;
+    padding-left: 5px;
+  }
+  p {
+  text-align: center;
+  padding-left: 1em;
+  font-size: 1.5em;
+  }
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height:80px;
+  padding: 10px; 
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
 `;
 
 export default function Options({
@@ -72,10 +72,9 @@ export default function Options({
       [r.push({
           pathname:"questions",
           query:{
-            // qnum:Number(qnum)+1 >= qs.
-            // length ? qs.length-1 : Number(qnum)+1
-            qnum :Number(qnum) + 1,
-            opt: Number(i),
+          qnum:Number(qnum)+1 >= qs.
+          length ? qs.length-1 : Number(qnum)+1,
+          opt: Number(i)
           }
         }),
         Number(qnum) === qs.length-1 && r.push("/questions/results"),

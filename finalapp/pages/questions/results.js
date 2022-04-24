@@ -219,7 +219,7 @@ export default function Qresults(){
     {
         an[1] === "Penguin" && an[2] === "Plastic bottle" &&
         <div className={styles.grid}>
-            <img className={styles.mainlogo} src="./../../imgs/results/result__bottle_penguin.png" />
+            <img className={styles.mainlogo} src="./../../imgs/results/result___bottle_penguin.png" />
             
             <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}'s stomach</h3>
             
@@ -234,7 +234,7 @@ export default function Qresults(){
     {
         an[1] === "Penguin" && an[2] === "Plastic bag" &&
         <div className={styles.grid}>
-            <img className={styles.mainlogo} src="./../../imgs/results/result__garbage_penguin.png" />
+            <img className={styles.mainlogo} src="./../../imgs/results/result_garbage_penguin.png" />
             
             <h3 className={styles.heading}>{an[2]}s traps them and causes them to drown</h3>
             
@@ -252,7 +252,7 @@ export default function Qresults(){
     {
         an[1] === "Penguin" && an[2] === "Plastic straw" &&
         <div className={styles.grid}>
-            <img className={styles.mainlogo} src="./../../imgs/results/result__straw_penguin.png" />
+            <img className={styles.mainlogo} src="./../../imgs/results/result_straw_penguin.png" />
             
             <h3 className={styles.heading}>{an[2]}s can cause them to starve</h3>
             
@@ -271,7 +271,7 @@ export default function Qresults(){
     {
         an[1] === "Polar bear" && an[2] === "Plastic bottle" &&
         <div className={styles.grid}>
-            <img className={styles.mainlogo} src="./../../imgs/results/result__bottle_polarbear.png" />
+            <img className={styles.mainlogo} src="./../../imgs/results/result_bottle_polar.png" />
             
             <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}'s stomach</h3>
             
@@ -286,7 +286,7 @@ export default function Qresults(){
     {
         an[1] === "Polar bear" && an[2] === "Plastic bag" &&
         <div className={styles.grid}>
-            <img className={styles.mainlogo} src="./../../imgs/results/result__garbage_polarbear.png" />
+            <img className={styles.mainlogo} src="./../../imgs/results/result_garbage_polar.png" />
             
             <h3 className={styles.heading}>{an[2]}s traps them and causes them to drown</h3>
             
@@ -304,7 +304,7 @@ export default function Qresults(){
     {
         an[1] === "Polar bear" && an[2] === "Plastic straw" &&
         <div className={styles.grid}>
-            <img className={styles.mainlogo} src="./../../imgs/results/result__straw_polarbear.png" />
+            <img className={styles.mainlogo} src="./../../imgs/results/result_straw_polar.png" />
             
             <h3 className={styles.heading}>{an[2]}s can cause them to starve</h3>
             

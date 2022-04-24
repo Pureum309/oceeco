@@ -19,23 +19,23 @@ const OpQueTitle = styled.h3 `
 `;
 
 const OpQueButton = styled.button `
-img {
-  height: 60px;
-  padding-left: 5px;
-}
-p {
-text-align: center;
-padding-left: 1em;
-font-size: 1.5em;
-}
-display: flex;
-align-items: center;
-width: 250px;
-height:80px;
-padding: 10px; 
-margin: 10px;
-border-radius: 8px;
-border: none;
+  img {
+    height: 60px;
+    padding-left: 5px;
+  }
+  p {
+  text-align: center;
+  padding-left: 1em;
+  font-size: 1.5em;
+  }
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height:80px;
+  padding: 10px; 
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
 `;
 
 export default function Options({

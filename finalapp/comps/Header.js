@@ -1,10 +1,19 @@
 import {useRouter} from "next/router";
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Nav from "./nav";
+import { useState } from "react";
+import Hamburger from "./burger";
 
 function Header() {
 
   const r = useRouter();
+
+  const [hamburgerOpen, setHamburgerOpen] = useState(false)
+
+  const toggleHamburger = () => {
+      setHamburgerOpen(!hamburgerOpen)
+  }
 
     return <div className='layout-header'>
        
@@ -25,12 +34,12 @@ function Header() {
               src ="logomarkgradient.png"
             />
         </div>
-          <div 
-          className="navmenu">
-          <img
+          <div className="navmenu">
+          {/* <img
               className="navmenu" 
               src ="menu.png"
-          />
+          /> */}
+            <Nav />
           </div>
       </div>
     </div>

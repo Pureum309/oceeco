@@ -11,7 +11,7 @@ export default function Home() {
 
 
     <div className={styles.container}>
-
+       <Head />
       <main className={styles.main}>
         <div className={styles.grid}>
           <img 

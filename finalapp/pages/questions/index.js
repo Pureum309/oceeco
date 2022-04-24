@@ -15,7 +15,6 @@ export default function Questions() {
   
     var {qnum} = r.query;
     var {opt} = r.query;
-    var {preOpt} = r.query;
   
     if (qnum === undefined) {
       qnum = 0;

@@ -14,7 +14,7 @@ export default function Home() {
         <div className={styles.grid}>
           <img 
           className={styles.mainlogo}
-          src="./imgs/logo/mainlogo.png" />
+          src="./../../imgs/results/learnmore_childrens.png" />
         </div>
 
         <div>

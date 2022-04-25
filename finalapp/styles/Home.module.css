@@ -130,7 +130,6 @@
 }
 
 .mainlogo {
-  padding-top: 5em;
   justify-self: flex-start;
   width: 50%;
   height: 50%;
@@ -236,4 +235,5 @@
     flex-direction: column;
   }
 }
+
 

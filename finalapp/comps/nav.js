@@ -39,17 +39,42 @@ export default function Nav(){
                     <li className="burger_el" 
                     onClick={
                         ()=>r.push("/questions")
-                        }>Play</li>
+                        }>
+                            <Image 
+                                src="/imgs/menu/menu__start.png"
+                                alt="Home Icon"
+                                width={20}
+                                height={20}
+                             />
+                        
+                        Play</li>
 
                     <li className="burger_el" 
                     onClick={
                         ()=>r.push("/tutorial")
-                    }>Tutorial</li>
+                    }>
+                        <Image 
+                                src="/imgs/menu/menu__tutorial.png"
+                                alt="Home Icon"
+                                width={20}
+                                height={20}
+                             />
+                        
+                        Tutorial</li>
 
                     <li className="burger_el" 
                     onClick={
                         ()=>r.push("/aboutus")
-                    }>About Us</li>
+                    }>
+                        
+                        <Image 
+                                src="/imgs/menu/menu__aboutus.png"
+                                alt="Home Icon"
+                                width={20}
+                                height={20}
+                             />
+                        
+                        About Us</li>
                 </ul>
                    
             </div>
@@ -65,9 +90,6 @@ export default function Nav(){
                     position: relative;
                     margin-top: 0;
                     z-index: 1;
-                    
-                
-                   
                     height: 100vh;
                     width: -50vw;
                     position: relative;
@@ -87,12 +109,12 @@ export default function Nav(){
                     background-color: white;
                     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
                     z-index: 9;
+                
                   }
                   
                   .navigation ul li {
                     list-style-type: none;
-                    padding: 0 2em 0 2em;
-                    // margin-top: 2em;
+                    padding: 25px;
                     
                   }
 

@@ -154,6 +154,7 @@
   background-color: #3c8aca;
   font-weight: bold;
   color: #fff;
+  cursor: pointer;
 }
 
 
@@ -199,6 +200,11 @@
   border-radius: 8px;
   border: none;
   font-size: 1.10em;
+}
+
+.backbutton button:hover {
+  background-color:#CCC;
+  cursor: pointer;
 }
 
 .lcase {

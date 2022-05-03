@@ -41,7 +41,7 @@ export default function Questions() {
     <div className={styles.main}>
 
     {/* Start from Heare Sarah */}
-        <Options 
+        <Options
           q={qs[qnum].title}
           img={qs[qnum].options[opt].pics}
           desc={qs[qnum].options[opt].txts}

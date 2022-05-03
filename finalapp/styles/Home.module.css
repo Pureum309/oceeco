@@ -202,6 +202,11 @@
   font-size: 1.10em;
 }
 
+.backbutton button:hover {
+  background-color:#CCC;
+  cursor: pointer;
+}
+
 .lcase {
   text-transform: lowercase;
 }

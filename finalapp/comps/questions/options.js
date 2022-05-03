@@ -11,6 +11,7 @@ const OpCont = styled.div `
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+
 `;
 
 const OpQueTitle = styled.h3 `
@@ -36,6 +37,8 @@ const OpQueButton = styled.button `
   margin: 10px;
   border-radius: 8px;
   border: none;
+
+  cursor:pointer;
 `;
 
 export default function Options({

@@ -11,29 +11,40 @@ export default function tutorial() {
         document.head.appendChild(aScript);
         aScript.onload = () => {
             $(document).ready(function(){
-                $("#divs div").each(function(e) {
-                    if (e != 0)
-                        $(this).hide();
-                });
-                $("#next").click(function(){
-                    if ($("#divs div:visible").next().length != 0)
-                        $("#divs div:visible").next().show().prev().hide();
-                    else {
-                        $("#divs div:visible").hide();
-                        $("#divs div:first").show();
-                    }
-                    return false;
-                });
-                $("#prev").click(function(){
-                  if ($("#divs div:visible").prev().length != 0)
-                      $("#divs div:visible").prev().show().next().hide();
-                  else {
-                      $("#divs div:visible").hide();
-                      $("#divs div:last").show();
-                  }
-                  return false;
-              });
-            });
+              $("#d1").show();
+              $("#d2").hide();
+              $("#d3").hide();
+              $("#next").show();
+              $("#prev").hide();
+                          $("#next").click(function () {
+                            if ($("#divs div:visible").nextAll('div').length == 0)
+                            $("#next").hide();
+                            if ($("#divs div:visible").next().length != 0)
+                            $("#divs div:visible").next().show().prev().hide();
+                            else {
+                            $("#divs div:visible").hide();
+                            $("#divs div:first").show();
+                            }
+                            $("#prev").show();
+                            return false;
+                            });
+                            $("#prev").click(function () {
+                              if ($("#divs div:visible").prev().length != 0)
+                              $("#divs div:visible").prev().show().next().hide(); else {
+                              $("#divs div:visible").hide();
+                              $("#divs div:last").show();
+                              }
+                              if ($("#divs div:visible").nextAll('div').length > 0)
+                              $("#next").show();
+                              if ($("#divs div:visible").nextAll('div').length == 2)
+                              $("#prev").hide();
+                              else
+                              $("#prev").show();
+                              return false;
+                              });
+              
+              
+                      });
         };
     }
     
@@ -75,7 +86,7 @@ export default function tutorial() {
        
         <div id="d3">
         
-              <c>See the result on how it can affect</c>
+              <a>See the result on how it can affect</a>
               <h2>the ocean and the living things in it:</h2>
              
    <p >
@@ -353,7 +364,7 @@ margin-top: 720px;
   margin: 0px;
 }
 
-#d3 c{
+#d3 a{
   display: block;
   font-size: 1.5em;
   margin-block-start: 0.83em;

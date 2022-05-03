@@ -216,6 +216,10 @@
   box-shadow: 0px 2px 4px rgb(173, 173, 173);
 }
 
+.para1 {
+  text-align: center;
+  padding: 1em;
+}
 
 @keyframes float {
 	0% {

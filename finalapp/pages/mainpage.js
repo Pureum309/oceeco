@@ -15,7 +15,7 @@ export default function mainpage() {
             >How Plastics Affect The Ocean</h2>
 
         <div className={styles.mainpage_content}>
-            <p>
+            <p className={styles.para1}>
                 We love ice cream cups and ballons, but did you know that
                 if we don't throw them away properly that it can hurt our 
                 ocean and the animals in it?

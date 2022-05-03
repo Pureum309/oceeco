@@ -13,10 +13,17 @@ export default function Home() {
     <div className={styles.container}>
        <Head />
       <main className={styles.main}>
+        
         <div className={styles.grid}>
           <img 
           className={styles.mainlogo}
           src="./imgs/logo/mainlogo.png" />
+        </div>
+
+        <div className={styles.grid}>
+          <p className={styles.para1}>
+          Learn about the impacts of plastics to the ocean, its inhabitants, and how we can help.
+          </p>
         </div>
 
         <div>

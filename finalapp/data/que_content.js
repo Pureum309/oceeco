@@ -1,7 +1,8 @@
 
 export const qs = [
+
     {
-        title:"Select the region you want to learn",
+        title:"Select the region you want to learn in",
         // options: [ "Tropical", "Temperate", "cold"],
         // pics: [ "./imgs/climmates/climate__tropical.png", "./imgs/climmates/climate__temperate.png","./imgs/climmates/climate__cold.png"],
 
@@ -13,7 +14,7 @@ export const qs = [
     },
 
     {
-        title:"What animals are affected in the tropical region",
+        title:"Select the animal you want to learn more about in this region",
         // options: ["Clown Fish", "Green Turtle"],
         // pics: ["./imgs/animals/animal__trop_nemo.png", "./imgs/animals/animal__trop_turtle.png"]
 
@@ -32,7 +33,7 @@ export const qs = [
     }, 
 
     {
-        title:"How does these plastics affect?",
+        title:"Select a plastic to learn more about how it affects the animal.",
         options: [{
         txts: ["Plastic bag", "Plastic straw", "Plastic bottle"],
         pics: ["./imgs/waste/waste__garbage.png", "./imgs/waste/waste__straw.png", "./imgs/waste/waste__bottle.png"]

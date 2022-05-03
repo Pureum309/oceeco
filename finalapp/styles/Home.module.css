@@ -150,6 +150,13 @@
   box-shadow: 0px 2px 4px rgb(173, 173, 173);
 }
 
+.buttonintro:hover {
+  background-color: #3c8aca;
+  font-weight: bold;
+  color: #fff;
+}
+
+
 .about {
   background-image: url('/imgs/backgrounds/oceecobg_dark.jpg');
   background-size:cover;

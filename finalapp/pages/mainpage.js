@@ -16,7 +16,7 @@ export default function mainpage() {
 
         <div className={styles.mainpage_content}>
             <p className={styles.para1}>
-                We love ice cream cups and ballons, but did you know that
+                We love ice cream cups and balloons, but did you know that
                 if we don't throw them away properly that it can hurt our 
                 ocean and the animals in it?
                 <br></br>

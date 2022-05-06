@@ -27,6 +27,11 @@ export default function Home() {
           <div className={styles.buttonlink}>
            <a href="https://plasticbank.com/">Visit Plastic Bank</a>
           </div>
+          <div className={styles.backbutton}>
+                        <button onClick={
+                        ()=> history.back()
+                        }>Back</button>
+          </div>
         </div>
       </main>
     </div>

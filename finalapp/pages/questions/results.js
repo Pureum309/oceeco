@@ -327,7 +327,13 @@ export default function Qresults(){
             ()=>r.push("/learnmore")
           }>
             Learn How to Help
-          </div>
+    </div>
+        <div className={styles.backbutton}>
+                        <button onClick={
+                        ()=> history.back()
+                        }>Back</button>
+        </div>
+
     </div>
     </div>
 }

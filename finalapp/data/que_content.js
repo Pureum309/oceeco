@@ -32,9 +32,9 @@ export const qs = [
             txts: ["Penguin", "Polar bear"],
             pics: ["./imgs/animals/animal__cold_penguine.png", "./imgs/animals/animal__cold_polar.png"]
         }], 
-        background: ["#E8E8E8", "#E8E8E8"],
+        background: ["#F0F0F0", "#F0F0F0"],
         enter: ["#DBDBDB", "#DBDBDB"], 
-        leave: ["#E8E8E8", "#E8E8E8"]
+        leave: ["#F0F0F0", "#F0F0F0"]
     }, 
 
     {
@@ -43,9 +43,9 @@ export const qs = [
         txts: ["Plastic bag", "Plastic straw", "Plastic bottle"],
         pics: ["./imgs/waste/waste__garbage.png", "./imgs/waste/waste__straw.png", "./imgs/waste/waste__bottle.png"]
         }], 
-        background: ["#E8E8E8", "#E8E8E8", "#E8E8E8"],
+        background: ["#F0F0F0", "#F0F0F0", "#F0F0F0"],
         enter: ["#DBDBDB", "#DBDBDB", "#DBDBDB"], 
-        leave: ["#E8E8E8", "#E8E8E8", "#E8E8E8"]
+        leave: ["#F0F0F0", "#F0F0F0", "#F0F0F0"]
     }
 ]
 

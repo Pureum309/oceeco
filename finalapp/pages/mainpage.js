@@ -30,8 +30,22 @@ export default function mainpage() {
                 <div className={styles.buttonintro}
                     onClick={
                     ()=>r.push("/questions")
-                    }>Let's Learn
+                    }>Let's take a Quiz
                 </div>
+
+                <div className={styles.buttonintro}>
+                    <a href="https://cansanchez.ca/bimostory/">Check out Bimo's Story</a>
+                </div>
+                <div className={styles.buttonintro}>
+                    <a href="https://cansanchez.ca/recyclinggame/">Play Recycling Game</a>
+                </div>
+                <div className={styles.buttonintro}>
+                    <a href="https://plasticbank.com/">Visit Plastic Bank</a>
+                </div>
+
+
+
+
             </div>
         </main>
     </div>

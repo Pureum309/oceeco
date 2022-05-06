@@ -209,6 +209,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
 }
 
 .backbutton button {
@@ -221,6 +223,35 @@
 }
 
 .backbutton button:hover {
+  background-color:#CCC;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.backbutton_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+.backbutton_1 button {
+  width: 150px;
+  height:50px;
+  padding: 10px; 
+  border-radius: 8px;
+  border: none;
+  font-size: 1.10em;
+}
+
+.backbutton_1 .again {
+  padding-right: 1em;
+}
+
+.backbutton_1 button:hover {
   background-color:#CCC;
   font-weight: bold;
   color: #fff;
@@ -262,8 +293,15 @@
 
 .iframe > iframe {
   width: 100%;
-  min-height: 90vh;
+  min-height: 85vh;
+  border: none;
+  overflow-y: scroll;
 }
+
+.iframe::-webkit-scrollbar {
+  display: none;
+}
+
 
 @keyframes float {
 	0% {

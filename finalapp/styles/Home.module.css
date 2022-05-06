@@ -92,14 +92,13 @@
   flex-direction: row;
 }
 
-/* .gridab {
+.grid {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
-  color: #eaeaea;
-} */
+  max-width: 80%;
+}
 
 /* .card {
   margin: 1rem;
@@ -110,7 +109,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 300
 }
 
 .card:hover,

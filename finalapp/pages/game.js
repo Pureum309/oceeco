@@ -22,7 +22,7 @@ export default function Home() {
         <div className={styles.backbutton_1}>
             <div className={styles.again}>
                 <button
-                    onClick={refreshPage}>play Again</button>
+                    onClick={refreshPage}>Play Again</button>
             </div>
             <button onClick={
                 () => history.back()

@@ -67,11 +67,29 @@
 } */
 
 .grid {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 800px; */
+
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.grid > div {
+  display: flex; 
+  flex-basis: calc(50% - 40px);  
+  justify-content: center;
+  flex-direction: column;
+}
+
+.grid > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 /* .gridab {
@@ -204,6 +222,8 @@
 
 .backbutton button:hover {
   background-color:#CCC;
+  font-weight: bold;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -227,6 +247,12 @@
   background-color: #CAEBFC;
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgb(173, 173, 173);
+}
+
+.buttonlink:hover {
+  background-color: #3c8aca;
+  font-weight: bold;
+  color: #fff;
 }
 
 .para1 {

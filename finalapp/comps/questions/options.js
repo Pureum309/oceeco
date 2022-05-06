@@ -73,10 +73,14 @@ export default function Options({
   //hover effect
   const handleMouseEnter = e => {
     e.target.style.background = e.target.dataset.hoverEnter
+    e.target.style.color = "#1F1F1F"
+    e.target.style.fontWeight= "bold"
   }
 
   const handleMouseLeave = e => {
     e.target.style.background = e.target.dataset.hoverLeave
+    e.target.style.color = "black"
+    e.target.style.fontWeight= "normal"
   } 
   
   return <OpCont>

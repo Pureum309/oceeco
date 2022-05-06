@@ -41,11 +41,14 @@ const OpQueButton = styled.button `
   cursor:pointer;
 `;
 
+
 export default function Options({
   q='What is your favourite food?',
   img=[],
   desc=[],
-  background=[]
+  background=[],
+  leave=[],
+  enter=[]
 }){
 
   const r = useRouter();
@@ -67,22 +70,36 @@ export default function Options({
   //     })
   //   }
   // })
+  //hover effect
+  const handleMouseEnter = e => {
+    e.target.style.background = e.target.dataset.hoverEnter
+  }
+
+  const handleMouseLeave = e => {
+    e.target.style.background = e.target.dataset.hoverLeave
+  } 
   
   return <OpCont>
     <OpQueTitle>{q}</OpQueTitle>
-    {desc.map((o,i)=><OpQueButton style={{background:background[i]}} onClick={
-      ()=> 
-      [r.push({
-          pathname:"questions",
-          query:{
-          qnum:Number(qnum)+1 >= qs.
-          length ? qs.length-1 : Number(qnum)+1,
-          opt: Number(i)
-          }
-        }),
-        Number(qnum) === qs.length-1 && r.push("/questions/results"),
-        , ChangeAnswer(o, qnum) ]
-    }><img src={img[i]} /><p>{o}</p></OpQueButton>)}
+    {desc.map((o,i)=><OpQueButton 
+      style={{background:background[i]}}
+      data-hover-enter={enter[i]}
+      data-hover-leave={leave[i]} 
+      onClick={()=> 
+        [r.push({
+            pathname:"questions",
+            query:{
+            qnum:Number(qnum)+1 >= qs.
+            length ? qs.length-1 : Number(qnum)+1,
+            opt: Number(i)
+            }
+          }),
+          Number(qnum) === qs.length-1 && r.push("/questions/results"),
+          , ChangeAnswer(o, qnum)]
+      }
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    ><img src={img[i]} /><p>{o}</p></OpQueButton>)}
   </OpCont>
 }
 

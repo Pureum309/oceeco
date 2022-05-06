@@ -46,14 +46,20 @@ export default function mainpage() {
                         }>Let's take a Quiz
                     </div>
 
-                    <div className={styles.buttonintro}>
-                        <a href="https://cansanchez.ca/bimostory/">Check out Bimo's Story</a>
+                    <div className={styles.buttonintro}
+                        onClick={
+                            () => r.push("/bimo")
+                        }>
+                        Check out Bimo's Story
+                    </div>
+                    <div className={styles.buttonintro}
+                        onClick={
+                            () => r.push("/game")
+                        }>
+                        Play Recycling Game
                     </div>
                     <div className={styles.buttonintro}>
-                        <a href="https://cansanchez.ca/recyclinggame/">Play Recycling Game</a>
-                    </div>
-                    <div className={styles.buttonintro}>
-                        <a href="https://plasticbank.com/">Visit Plastic Bank</a>
+                        <a href="https://plasticbank.com/" target="_blank">Visit Plastic Bank</a>
                     </div>
 
                     <div className={styles.backbutton}>

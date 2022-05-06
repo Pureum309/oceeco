@@ -197,9 +197,7 @@
 .mainpage_content {
   padding: 0 1em 2em 1em;
 }
-.mainpage_content_1 {
-  
-}
+
 
 .sc-hiMGwR .gxqtJJ:hover {
   background-color: black;
@@ -260,6 +258,11 @@
 .para1 {
   text-align: center;
   padding: 1em;
+}
+
+.iframe > iframe {
+  width: 100%;
+  min-height: 90vh;
 }
 
 @keyframes float {

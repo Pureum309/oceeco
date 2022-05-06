@@ -10,7 +10,9 @@ export const qs = [
             txts: [ "Tropical", "Temperate", "Cold"],
             pics: [ "./imgs/climmates/climate__tropical.png", "./imgs/climmates/climate__temperate.png","./imgs/climmates/climate__cold.png"]
         }],
-        background: ["#FFECA8", "#91DEA6", "#86D4FD"]
+        background: ["#FFECA8", "#91DEA6", "#86D4FD"], 
+        enter: ["#FFC8A8", "#D0DE91", "#86B8FD"],
+        leave: ["#FFECA8", "#91DEA6", "#86D4FD"]
     },
 
     {
@@ -20,7 +22,7 @@ export const qs = [
 
         options: [{
             txts: ["Clownfish", "Green turtle"],
-            pics: ["./imgs/animals/animal__trop_nemo.png", "./imgs/animals/animal__trop_turtle.png"]
+            pics: ["./imgs/animals/animal__trop_nemo.png", "./imgs/animals/animal__trop_turtle.png"], 
         },
         {
             txts: ["Shark", "Dolphin"],
@@ -29,7 +31,10 @@ export const qs = [
         {
             txts: ["Penguin", "Polar bear"],
             pics: ["./imgs/animals/animal__cold_penguine.png", "./imgs/animals/animal__cold_polar.png"]
-        }]
+        }], 
+        background: ["#E8E8E8", "#E8E8E8"],
+        enter: ["#DBDBDB", "#DBDBDB"], 
+        leave: ["#E8E8E8", "#E8E8E8"]
     }, 
 
     {
@@ -37,7 +42,10 @@ export const qs = [
         options: [{
         txts: ["Plastic bag", "Plastic straw", "Plastic bottle"],
         pics: ["./imgs/waste/waste__garbage.png", "./imgs/waste/waste__straw.png", "./imgs/waste/waste__bottle.png"]
-        }]
+        }], 
+        background: ["#E8E8E8", "#E8E8E8", "#E8E8E8"],
+        enter: ["#DBDBDB", "#DBDBDB", "#DBDBDB"], 
+        leave: ["#E8E8E8", "#E8E8E8", "#E8E8E8"]
     }
 ]
 

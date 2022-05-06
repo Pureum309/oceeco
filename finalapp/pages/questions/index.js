@@ -46,6 +46,8 @@ export default function Questions() {
           img={qs[qnum].options[opt].pics}
           desc={qs[qnum].options[opt].txts}
           background={qs[qnum].background}
+          enter={qs[qnum].enter}
+          leave={qs[qnum].leave}
         />
     
     <div className={styles.backbutton}>

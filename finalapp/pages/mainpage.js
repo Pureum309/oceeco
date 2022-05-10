@@ -14,6 +14,12 @@ export default function mainpage() {
                 <h2 className={styles.heading}
                 >How Plastics Affect The Ocean</h2>
 
+            <div className={styles.grid}>
+                <img 
+                className={styles.animatedwastes}
+                src="./imgs/waste/balloon-dog.png" />
+            </div>
+
                 <div className={styles.mainpage_content}>
                     <p className={styles.para1}>
                         We love ice cream cups and balloons, but did you know that
@@ -25,40 +31,27 @@ export default function mainpage() {
                         the sea.
                     </p>
                 </div>
-
-                <div className={styles.grid}>
-                    <img
-                        className={styles.mainlogo}
-                        src="./imgs/logo/mainlogo.png" />
-                </div>
                 
-                <div>
-                    <h2 className={styles.heading}
-                    >What is Oceeco?</h2>
-                    <p className={styles.para1}>Worldwide, one million plastic bottles are bought every minute and a whopping 
-                    2 million plastic bags are used every minute. Meet our sustainability educational app</p>
-                </div>
-
                 <div className={styles.grid}>
-                    <div className={styles.buttonintro}
+                    <div className={styles.buttonlink}
                         onClick={
                             () => r.push("/questions")
                         }>Let's take a Quiz
                     </div>
 
-                    <div className={styles.buttonintro}
+                    <div className={styles.buttonlink}
                         onClick={
                             () => r.push("/bimo")
                         }>
                         Check out Bimo's Story
                     </div>
-                    <div className={styles.buttonintro}
+                    <div className={styles.buttonlink}
                         onClick={
                             () => r.push("/game")
                         }>
                         Play Recycling Game
                     </div>
-                    <div className={styles.buttonintro}>
+                    <div className={styles.buttonlink}>
                         <a href="https://plasticbank.com/" target="_blank">Visit Plastic Bank</a>
                     </div>
 

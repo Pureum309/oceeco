@@ -20,10 +20,9 @@ export default function Home() {
           src="./imgs/logo/mainlogo.png" />
         </div>
 
-        <div className={styles.grid}>
-          <p className={styles.para1}>
-          Learn about the impacts of plastics to the ocean, its inhabitants, and how we can help.
-          </p>
+        <div>
+            <p className={styles.para1}>Worldwide, millions of plastics are bought
+            and used every minute. Meet Oceeco, our educational app for ocean conservation and sustainable use of plastics.</p>
         </div>
 
         <div>

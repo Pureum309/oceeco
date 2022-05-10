@@ -162,6 +162,15 @@
   animation: float 6s ease-in-out infinite;
 }
 
+.animatedbuttons {
+  align-self: center;
+  width: auto;
+  height: 4em;
+  margin-top: 1em;
+	transform: translatey(0px);
+  /* animation: float 6s ease-in-out infinite; */
+}
+
 .buttonintro {
   height: 40px;
   width: 150px;
@@ -270,10 +279,10 @@
   text-transform: lowercase;
 }
 
-.resultsdesc {
+/* .resultsdesc {
   margin: 1em;
   text-align: center;
-}
+} */
 
 .buttonlink {
   height: 40px;
@@ -288,15 +297,46 @@
   box-shadow: 0px 2px 4px rgb(173, 173, 173);
 }
 
+.mainpagebuttonlink {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 180px;
+  width: 250px;
+  margin: .5em;
+  padding: 1em;
+  text-align: center;
+  line-height: normal;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  background-color: #CAEBFC;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgb(173, 173, 173);
+  color: #002458;
+}
+
+.mainpagebuttonlink:hover, .mainpagebuttonlink:active{
+  background-color: #3c8aca;
+  font-weight: bold;
+  color: #fff;
+}
+
 .buttonlink:hover {
   background-color: #3c8aca;
   font-weight: bold;
   color: #fff;
 }
 
-.para1 {
+.para1, .resultsdesc {
   text-align: center;
   padding: 1em;
+}
+
+.parabuttons {
+  font-size: .7em;
+  line-height: normal;
+  font-weight: 300;
 }
 
 .iframe > iframe {

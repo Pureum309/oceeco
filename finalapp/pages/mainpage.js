@@ -33,26 +33,44 @@ export default function mainpage() {
                 </div>
                 
                 <div className={styles.grid}>
-                    <div className={styles.buttonlink}
+                    <div className={styles.mainpagebuttonlink}
                         onClick={
                             () => r.push("/questions")
-                        }>Let's take a Quiz
+                        }>
+                    <img 
+                    className={styles.animatedbuttons}
+                    src="./imgs/buttons/quiz.png" />
+                        <p className={styles.parabuttons}>Find out how plastics affect the animals in the ocean.</p>
+                        Let's take a Quiz
                     </div>
 
-                    <div className={styles.buttonlink}
+                    <div className={styles.mainpagebuttonlink}
                         onClick={
                             () => r.push("/bimo")
                         }>
+                    <img 
+                        className={styles.animatedbuttons}
+                        src="./imgs/buttons/bimostory.png" />
+                        <p className={styles.parabuttons}>Help Bimo clean the ocean and save their friends!</p>
                         Check out Bimo's Story
                     </div>
-                    <div className={styles.buttonlink}
+                    <div className={styles.mainpagebuttonlink}
                         onClick={
                             () => r.push("/game")
                         }>
+                        <img 
+                            className={styles.animatedbuttons}
+                            src="./imgs/buttons/game.png" />
+                            <p className={styles.parabuttons}>Collect the plastics in the ocean and recycle them. Try to beat your highest score!</p>
                         Play Recycling Game
                     </div>
-                    <div className={styles.buttonlink}>
-                        <a href="https://plasticbank.com/" target="_blank">Visit Plastic Bank</a>
+                    <div className={styles.mainpagebuttonlink}>
+                        <a href="https://plasticbank.com/" target="_blank">
+                        <img 
+                            className={styles.animatedbuttons}
+                            src="./imgs/buttons/plasticbank.png" />
+                            <p className={styles.parabuttons}>Become an ocean steward.</p>
+                            </a>Visit Plastic Bank
                     </div>
 
                     <div className={styles.backbutton}>

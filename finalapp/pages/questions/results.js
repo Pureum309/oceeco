@@ -18,12 +18,9 @@ export default function Qresults(){
             <img className={styles.mainlogo} src="./../../imgs/results/result__bottle_nemo.png" />
             
             <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}'s stomach</h3>
-            
-            <div>
-                <p className={styles.resultsdesc}>
-                Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+            Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
+            </p>
         </div>
     }
 
@@ -34,14 +31,12 @@ export default function Qresults(){
             
             <h3 className={styles.heading}>{an[2]}s traps them and causes them to drown</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                    {an[1]} can get trapped in plastic nets or large pile of plastic bags. 
-                    <br></br>
-                    <br></br>
-                    Getting trapped takes them away from their home and family. It can also hurt them badly.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+                {an[1]} can get trapped in plastic nets or large pile of plastic bags. 
+                <br></br>
+                <br></br>
+                Getting trapped takes them away from their home and family. It can also hurt them badly.
+            </p>
         </div>
     }
 
@@ -52,14 +47,12 @@ export default function Qresults(){
             
             <h3 className={styles.heading}>{an[2]}s can cause them to starve</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
-                <br></br>
-                <br></br>
-                They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+            Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
+            <br></br>
+            <br></br>
+            They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
+            </p>
         </div>
     }
 {/* TURTLE */}
@@ -70,11 +63,9 @@ export default function Qresults(){
             
             <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}'s stomach</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+            Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
+            </p>
         </div>
     }
 
@@ -85,14 +76,13 @@ export default function Qresults(){
             
             <h3 className={styles.heading}>{an[2]}s traps them and causes them to drown</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                    {an[1]+"s"} can get trapped in plastic nets or large pile of plastic bags. 
-                    <br></br>
-                    <br></br>
-                    Getting trapped takes them away from their home and family. It can also hurt them badly.
-                </p>
-            </div>
+
+            <p className={styles.resultsdesc}>
+                {an[1]+"s"} can get trapped in plastic nets or large pile of plastic bags. 
+                <br></br>
+                <br></br>
+                Getting trapped takes them away from their home and family. It can also hurt them badly.
+            </p>
         </div>
     }
 
@@ -102,15 +92,13 @@ export default function Qresults(){
             <img className={styles.mainlogo} src="./../../imgs/results/result__straw_turtle.png" />
             
             <h3 className={styles.heading}>{an[2]}s can cause them to starve</h3>
-            
-            <div>
-                <p className={styles.resultsdesc}>
-                Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
-                <br></br>
-                <br></br>
-                They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
-                </p>
-            </div>
+
+            <p className={styles.resultsdesc}>
+            Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
+            <br></br>
+            <br></br>
+            They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
+            </p>
         </div>
     }
 
@@ -123,11 +111,9 @@ export default function Qresults(){
             
             <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}'s stomach</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+            Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
+            </p>
         </div>
     }
 
@@ -138,14 +124,12 @@ export default function Qresults(){
             
             <h3 className={styles.heading}>{an[2]}s traps them and causes them to drown</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                    {an[1]+"s"} can get trapped in plastic nets or large pile of plastic bags. 
-                    <br></br>
-                    <br></br>
-                    Getting trapped takes them away from their home and family. It can also hurt them badly.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+                {an[1]+"s"} can get trapped in plastic nets or large pile of plastic bags. 
+                <br></br>
+                <br></br>
+                Getting trapped takes them away from their home and family. It can also hurt them badly.
+            </p>
         </div>
     }
 
@@ -156,14 +140,12 @@ export default function Qresults(){
             
             <h3 className={styles.heading}>{an[2]}s can cause them to starve</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                    Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
-                    <br></br>
-                    <br></br>
-                    They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+                Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
+                <br></br>
+                <br></br>
+                They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
+            </p>
         </div>
     }
 {/*DOLPHIN*/}
@@ -174,11 +156,9 @@ export default function Qresults(){
             
             <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}'s stomach</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+            Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
+            </p>
         </div>
     }
 
@@ -189,14 +169,12 @@ export default function Qresults(){
             
             <h3 className={styles.heading}>{an[2]}s traps them and causes them to drown</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                    {an[1]+"s"} can get trapped in plastic nets or large pile of plastic bags. 
-                    <br></br>
-                    <br></br>
-                    Getting trapped takes them away from their home and family. It can also hurt them badly.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+                {an[1]+"s"} can get trapped in plastic nets or large pile of plastic bags. 
+                <br></br>
+                <br></br>
+                Getting trapped takes them away from their home and family. It can also hurt them badly.
+            </p>
         </div>
     }
 
@@ -207,14 +185,12 @@ export default function Qresults(){
             
             <h3 className={styles.heading}>{an[2]}s can cause them to starve</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                    Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
-                    <br></br>
-                    <br></br>
-                    They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+                Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
+                <br></br>
+                <br></br>
+                They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
+            </p>
         </div>
     }
     
@@ -222,15 +198,13 @@ export default function Qresults(){
     {
         an[1] === "Penguin" && an[2] === "Plastic bottle" &&
         <div className={styles.grid}>
-            <img className={styles.mainlogo} src="./../../imgs/results/result___bottle_penguin.png" />
+            <img className={styles.mainlogo} src="./../../imgs/results/result_bottle_penguin.png" />
             
             <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}'s stomach</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+            Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
+            </p>
         </div>
     }
 
@@ -241,14 +215,12 @@ export default function Qresults(){
             
             <h3 className={styles.heading}>{an[2]}s traps them and causes them to drown</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                    {an[1]+"s"} can get trapped in plastic nets or large pile of plastic bags. 
-                    <br></br>
-                    <br></br>
-                    Getting trapped takes them away from their home and family. It can also hurt them badly.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+                {an[1]+"s"} can get trapped in plastic nets or large pile of plastic bags. 
+                <br></br>
+                <br></br>
+                Getting trapped takes them away from their home and family. It can also hurt them badly.
+            </p>
         </div>
     }
 
@@ -259,14 +231,12 @@ export default function Qresults(){
             
             <h3 className={styles.heading}>{an[2]}s can cause them to starve</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                    Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
-                    <br></br>
-                    <br></br>
-                    They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+                Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
+                <br></br>
+                <br></br>
+                They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
+            </p>
         </div>
     }
 
@@ -278,11 +248,9 @@ export default function Qresults(){
             
             <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}'s stomach</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+            Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
+            </p>
         </div>
     }
 
@@ -293,14 +261,12 @@ export default function Qresults(){
             
             <h3 className={styles.heading}>{an[2]}s traps them and causes them to drown</h3>
             
-            <div>
-                <p className={styles.resultsdesc}>
-                    {an[1]+"s"} can get trapped in plastic nets or large pile of plastic bags. 
-                    <br></br>
-                    <br></br>
-                    Getting trapped takes them away from their home and family. It can also hurt them badly.
-                </p>
-            </div>
+            <p className={styles.resultsdesc}>
+                {an[1]+"s"} can get trapped in plastic nets or large pile of plastic bags. 
+                <br></br>
+                <br></br>
+                Getting trapped takes them away from their home and family. It can also hurt them badly.
+            </p>
         </div>
     }
 

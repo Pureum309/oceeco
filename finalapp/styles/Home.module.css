@@ -314,6 +314,8 @@
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgb(173, 173, 173);
   color: #002458;
+
+  cursor: pointer;
 }
 
 .mainpagebuttonlink:hover, .mainpagebuttonlink:active{

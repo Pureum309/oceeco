@@ -75,12 +75,15 @@ export default function Options({
     e.target.style.background = e.target.dataset.hoverEnter
     e.target.style.color = "#1F1F1F"
     e.target.style.fontWeight= "bold"
+    e.target.style.boxShadow = "5px 5px 5px lightgrey"
   }
 
   const handleMouseLeave = e => {
     e.target.style.background = e.target.dataset.hoverLeave
     e.target.style.color = "black"
     e.target.style.fontWeight= "normal"
+    e.target.style.boxShadow = "none"
+    
   } 
   
   return <OpCont>

@@ -1,0 +1,152 @@
+
+.header {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color:inherit;
+  background-color:inherit;
+}
+
+.navlogo, .navlink {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.navitem {
+  list-style: none;
+}
+
+
+.hamburger {
+background: transparent;
+border: none;
+cursor: pointer;
+padding: 0;
+}
+
+.hamburger:hover,
+.hamburger:focus {
+  background:transparent;
+}
+
+.hamburger:focus {
+  outline: none;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #9ad2f5;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.navitem {
+    margin-left: 5rem;
+}
+
+.navlink{
+    font-size: 1em;
+    font-weight: 400;
+    color: #475569;
+    text-transform: uppercase;
+}
+
+.navlink:hover{
+    color: #482ff7;
+}
+
+.navlogo img {
+    width: 70px;
+}
+
+
+.hamburger {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    }
+    
+.hamburger:hover,
+.hamburger:focus {
+    background:transparent;
+}
+
+.hamburger:focus {
+    outline: none;
+
+}
+
+.navlink img {
+    width: 20px;
+    height: 20px;
+    margin-right: 1em;
+}
+
+    @media (max-width: 785px) {
+        .navmenu {
+            position: fixed;
+            left: -100%;
+            top: 5rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow:
+                0 10px 27px rgba(0, 0, 0, 0.05);
+        }
+    
+        .navmenu.active {
+            left: 0;
+        }
+    
+        .navitem {
+            margin: 2.5rem 0;
+        }
+    
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+    
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            -webkit-transform: translateY(10px) rotate(45deg);
+            transform: translateY(10px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            -webkit-transform: translateY(-10px) rotate(-45deg);
+            transform: translateY(-10px) rotate(-45deg);
+        }
+      }
+

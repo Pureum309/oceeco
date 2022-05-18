@@ -21,19 +21,16 @@
   justify-content: center;
   align-items: center;
 }
-
 .footer a {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
 }
-
 .title a {
   color: #0070f3;
   text-decoration: none;
 }
-
 .title a:hover,
 .title a:focus,
 .title a:active {
@@ -50,7 +47,6 @@
 .description {
   text-align: center;
 }
-
 .description {
   margin: 4rem 0;
   line-height: 1.5;
@@ -111,19 +107,16 @@
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300
 }
-
 .card:hover,
 .card:focus,
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
 }
-
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
-
 .card p {
   margin: 0;
   font-size: 1.25rem;
@@ -152,6 +145,7 @@
   height: 50%;
 	transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
+  z-index: 0;
 }
 
 .animatedwastes {
@@ -378,5 +372,3 @@
     animation: float 6s ease-in-out infinite;
   }
 }
-
-

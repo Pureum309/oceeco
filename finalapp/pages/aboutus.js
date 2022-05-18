@@ -76,7 +76,6 @@ export default function aboutUs() {
                     </button>
                 </div>
             </div>
-
             
        
     </div>

@@ -3,27 +3,27 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-
 export default function aboutCan() {
     const r = useRouter();
 
     return (
     <div className={styles.about}>
         <div className={styles.container}>
-            <div className={styles.grid}>
+        <main className={styles.main}>
+        <div className={styles.grid}>
                 <Image 
-                    src="/imgs/about/about__kc_jellyfish.png" 
+                    src="/imgs/about/kc.png" 
                     alt="KC Jellyfish"
-                    width={100}
-                    height={100}
+                    width={250}
+                    height={250}
                 />
-            </div>    
+        </div>
 
-            <div className={styles.gridab}>
-                <h2>KCWIN</h2>
-            </div>      
-
-            <div className={styles.gridab}>
+        <h2 className={styles.heading}
+                >KCWIN</h2>
+                
+            <div className={styles.mainpage_content}>
+                    <p className={styles.para1}>
                 This is KCWIN - a Saigon-based graphic designer who has been 
                 in a complex-long-term relationship with deadlines and coffee. 
                 I'm confident in spending days finding inspiration and writing messy codes.
@@ -31,13 +31,17 @@ export default function aboutCan() {
                 <br></br><br></br>
                 Aside from designing graphics, my role as an exemplary teammate is also not to ruin others' codes.
 
-            <div className={styles.grid}>
-                <button onClick={
-                ()=>r.push("/aboutus")
-                }>Go Back</button>
-            </div>
-        </div> 
-    </div>
+                </p>
+
+                <div className={styles.backbutton}>
+                        <button onClick={
+                            () => history.back()
+                        }>Back</button>
+                    </div>
+                    
+        </div>
+        </main> 
+        </div>
     </div>
     
 
@@ -47,3 +51,4 @@ export default function aboutCan() {
 
     )
 }
+

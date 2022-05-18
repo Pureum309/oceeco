@@ -40,6 +40,7 @@ padding: 0;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+    margin-bottom: 1em;
 }
 
 .hamburger {
@@ -59,7 +60,8 @@ padding: 0;
 
 .navmenu {
     display: flex;
-    justify-content: space-between;
+    width: 80%;
+    justify-content: space-evenly;
     align-items: center;
     z-index: 1;
 }
@@ -69,6 +71,9 @@ padding: 0;
 }
 
 .navlink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 1em;
     font-weight: 400;
     color: #16314b;
@@ -104,7 +109,9 @@ padding: 0;
 .navlink img {
     width: 20px;
     height: 20px;
-    margin-right: 1em;
+    padding-left: auto;
+    padding-right: auto;
+    margin-bottom: .5em;
 }
 
     @media (max-width: 785px) {

@@ -355,7 +355,7 @@
   animation: float 10s infinite linear;
 }
 
-.aboutbox:hover .shadowx {
+.aboutbox:hover .shadowx, .aboutbox:active .shadowx {
   background-color: rgba(231, 207, 33, 0.53);
   box-shadow: 0 0 10px rgba(224, 227, 35, 0.23);
 }

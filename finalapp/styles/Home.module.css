@@ -187,17 +187,16 @@
 
 
 .about {
-  background-image: url('/imgs/backgrounds/oceecobg_dark.jpg');
+  /* background-image: url('/imgs/backgrounds/oceecobg_dark.jpg'); */
   background-size:cover;
   background-repeat: no-repeat;
 
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
+  padding: 1rem 0;
+  /* display: flex; */
+  /* flex: 1;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .heading {
@@ -345,6 +344,31 @@
 .iframe::-webkit-scrollbar {
   display: none;
 }
+
+.aboutboxcan, .aboutboxsarah, .aboutboxkc, .aboutboxhd {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  margin: 3em 1em;
+  /* transform: translate3D(-50%, -75%, 0); */
+  animation: float 10s infinite linear;
+}
+
+.aboutname {
+  margin-top: .2em;
+  color: #002458;
+}
+
+.shadowx {
+  width: 100px;
+  height:15px;
+  border-radius: 50%;
+    background-color: rgba(134, 134, 134, 0.23);
+    box-shadow: 0 0 10px rgba(134, 134, 134, 0.23);
+  bottom: 5%;
+}
+
 
 
 @keyframes float {

@@ -71,12 +71,12 @@ padding: 0;
 .navlink{
     font-size: 1em;
     font-weight: 400;
-    color: #475569;
+    color: #16314b;
     text-transform: uppercase;
 }
 
 .navlink:hover{
-    color: #482ff7;
+    color: #82bcf4;
 }
 
 .navlogo img {
@@ -110,11 +110,11 @@ padding: 0;
     @media (max-width: 785px) {
         .navmenu {
             position: fixed;
-            left: -100%;
+            right: -100%;
             top: 5rem;
             flex-direction: column;
             background-color: #fff;
-            width: 100%;
+            width: 40%;
             border-radius: 10px;
             text-align: center;
             transition: 0.3s;
@@ -123,7 +123,7 @@ padding: 0;
         }
     
         .navmenu.active {
-            left: 0;
+            right: 0;
         }
     
         .navitem {

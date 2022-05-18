@@ -14,7 +14,7 @@ export default function aboutUs() {
       <div className={styles.container}>
 
         <div className={styles.gridab}>
-            <Head>About Us</Head>
+           <div>About Us</div>
         </div>     
        
 
@@ -28,7 +28,7 @@ export default function aboutUs() {
                     <button onClick={
                     ()=>r.push("/can")
                     }>
-                        <Image 
+                        <img 
                             src="/imgs/about/about__can_seahorse.png" 
                             alt="Can Seahorse"
                             width={100}
@@ -39,7 +39,7 @@ export default function aboutUs() {
                     <button onClick={
                     ()=>r.push("/sarah")
                     }>
-                        <Image 
+                        <img
                             src="/imgs/about/about__sarah_whale.png" 
                             alt="Sarah Whale"
                             width={100}
@@ -56,7 +56,7 @@ export default function aboutUs() {
                     <button onClick={
                     ()=>r.push("/kc")
                     }>
-                        <Image 
+                        <img 
                             src="/imgs/about/about__kc_jellyfish.png" 
                             alt="KC Jellyfish"
                             width={100}
@@ -67,7 +67,7 @@ export default function aboutUs() {
                     <button onClick={
                     ()=>r.push("/heidi")
                     }>
-                        <Image 
+                        <img 
                             src="/imgs/about/about__heidi_nemo.png" 
                             alt="Heidi Clownfish"
                             width={100}

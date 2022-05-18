@@ -1,6 +1,4 @@
 import {useRouter} from "next/router";
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../../styles/Home.module.css';
 
 import Options from '../../comps/Questions/options';
@@ -38,9 +36,9 @@ export default function Questions() {
   
   return (
     <div className={styles.container}>
-    <div className={styles.main}>
+      <div className={styles.main}>
 
-    {/* Start from Heare Sarah */}
+      {/* Start from Heare Sarah */}
         <Options
           q={qs[qnum].title}
           img={qs[qnum].options[opt].pics}
@@ -50,19 +48,19 @@ export default function Questions() {
           leave={qs[qnum].leave}
         />
     
-    <div className={styles.backbutton}>
-      {
-        Number(qnum, opt) < qs.length &&
-        <button onClick={
-          ()=> history.back()
-        }>Back</button>
-      }
-    </div>
+      <div className={styles.backbutton}>
+        {
+          Number(qnum, opt) < qs.length &&
+          <button onClick={
+            ()=> history.back()
+          }>Back</button>
+        }
+      </div>
 
 
-  
-      
-    </div>
+    
+        
+      </div>
     </div>
   )
 }

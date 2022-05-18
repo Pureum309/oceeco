@@ -345,7 +345,7 @@
   display: none;
 }
 
-.aboutboxcan, .aboutboxsarah, .aboutboxkc, .aboutboxhd {
+.aboutbox {
   display: flex;
   height: auto;
   flex-direction: column;
@@ -353,6 +353,11 @@
   margin: 3em 1em;
   /* transform: translate3D(-50%, -75%, 0); */
   animation: float 10s infinite linear;
+}
+
+.aboutbox:hover .shadowx, .aboutbox:active .shadowx {
+  background-color: rgba(231, 207, 33, 0.53);
+  box-shadow: 0 0 10px rgba(224, 227, 35, 0.23);
 }
 
 .aboutname {

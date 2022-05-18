@@ -18,7 +18,7 @@ export default function aboutUs() {
         </h2>
 
         <div className={styles.grid}>
-            <div className={styles.aboutboxcan}
+            <div className={styles.aboutbox}
             onClick={
             ()=>r.push("/can")
             }>
@@ -32,7 +32,7 @@ export default function aboutUs() {
                 <span className={styles.shadowx}></span>
             </div>
 
-            <div className={styles.aboutboxsarah}
+            <div className={styles.aboutbox}
             onClick={
             ()=>r.push("/sarah")
             }>
@@ -46,7 +46,7 @@ export default function aboutUs() {
                 <span className={styles.shadowx}></span>
             </div>
 
-            <div className={styles.aboutboxkc}
+            <div className={styles.aboutbox}
             onClick={
             ()=>r.push("/kc")
             }>
@@ -60,7 +60,7 @@ export default function aboutUs() {
                 <span className={styles.shadowx}></span>
             </div>
 
-            <div className={styles.aboutboxhd} 
+            <div className={styles.aboutbox} 
             onClick={
             ()=>r.push("/heidi")
             }>

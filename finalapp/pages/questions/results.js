@@ -13,6 +13,7 @@ export default function Qresults(){
     <div className={styles.main}>
     <h1 className={styles.heading}
                 >Final Result</h1>
+    <div className={styles.grid}>
 {/* CLOWNFISH */}
     {
         an[1] === "Clownfish" && an[2] === "Plastic bottle" &&
@@ -289,6 +290,7 @@ export default function Qresults(){
             </div>
         </div>
     }
+    </div>
 
         <div className={styles.mainpagebuttonlink}
                         onClick={
@@ -309,4 +311,5 @@ export default function Qresults(){
 
     </div>
     </div>
+    
 }

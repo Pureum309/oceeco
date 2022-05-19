@@ -14,9 +14,18 @@ const OpCont = styled.div `
 
 `;
 
+const OpImage = styled.div `
+ img {
+  width: 150px;
+ } 
+ padding-top: 1em;
+ padding-bottom: 2em;
+`;
+
 const OpQueTitle = styled.h3 `
   font-size: 1.5em;
   text-align: center;
+  padding-bottom: 2em;
 `;
 
 const OpQueButton = styled.button `
@@ -44,6 +53,8 @@ const OpQueButton = styled.button `
 
 export default function Options({
   q='What is your favourite food?',
+  n=" - Step 1",
+  bar="./imgs/progressbar/prog_1.png",
   img=[],
   desc=[],
   background=[],
@@ -87,6 +98,7 @@ export default function Options({
   } 
   
   return <OpCont>
+    <OpImage><img src={bar} /></OpImage>
     <OpQueTitle>{q}</OpQueTitle>
     {desc.map((o,i)=><OpQueButton 
       style={{background:background[i]}}

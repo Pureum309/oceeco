@@ -11,6 +11,8 @@ export default function Qresults(){
 
     return <div className={styles.container}>
     <div className={styles.main}>
+    <h1 className={styles.heading}
+                >Final Result</h1>
 {/* CLOWNFISH */}
     {
         an[1] === "Clownfish" && an[2] === "Plastic bottle" &&
@@ -288,12 +290,17 @@ export default function Qresults(){
         </div>
     }
 
-    <div className={styles.buttonintro}
-          onClick={
-            ()=>r.push("/learnmore")
-          }>
-            Learn How to Help
-    </div>
+        <div className={styles.mainpagebuttonlink}
+                        onClick={
+                            () => r.push("/bimo")
+                        }>
+                    <img 
+                        className={styles.animatedbuttons}
+                        src="/imgs/buttons/bimostory.png" />
+                        <p className={styles.parabuttons}>Learn from Bimo's story on how to reduce, reuse and recycle plastic</p>
+                        Check out Bimo's Story
+        </div>
+        
         <div className={styles.backbutton}>
                         <button onClick={
                         ()=> history.back()

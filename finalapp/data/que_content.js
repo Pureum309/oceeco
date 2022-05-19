@@ -3,8 +3,7 @@ export const qs = [
 
     {
         title:"Select the region you want to learn in",
-        // options: [ "Tropical", "Temperate", "cold"],
-        // pics: [ "./imgs/climmates/climate__tropical.png", "./imgs/climmates/climate__temperate.png","./imgs/climmates/climate__cold.png"],
+        progress: "./imgs/progressbar/prog_1.png",
 
         options: [{
             txts: [ "Tropical", "Temperate", "Cold"],
@@ -17,6 +16,7 @@ export const qs = [
 
     {
         title:"Select the animal you want to learn more about in this region",
+        progress: "./imgs/progressbar/prog_2.png",
         // options: ["Clown Fish", "Green Turtle"],
         // pics: ["./imgs/animals/animal__trop_nemo.png", "./imgs/animals/animal__trop_turtle.png"]
 
@@ -39,6 +39,8 @@ export const qs = [
 
     {
         title:"Select a plastic to learn more about how it affects the animal.",
+        progress: "./imgs/progressbar/prog_3.png",
+        
         options: [{
         txts: ["Plastic bag", "Plastic straw", "Plastic bottle"],
         pics: ["./imgs/waste/waste__garbage.png", "./imgs/waste/waste__straw.png", "./imgs/waste/waste__bottle.png"]

@@ -241,8 +241,13 @@
 
 /**************/
 .vbackbutton {
-  position: absolute;
-  bottom: 20%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10em;
+  padding-bottom: 1em;
 }
 
 .vbackbutton button {

@@ -299,7 +299,7 @@ export default function Qresults(){
                     <img 
                         className={styles.animatedbuttons}
                         src="/imgs/buttons/bimostory.png" />
-                        <p className={styles.parabuttons}>Learn from Bimo's story on how to reduce, reuse and recycle plastic</p>
+                        <p className={styles.parabuttons}>Learn from Bimo's story on how to reduce, reuse and recycle plastic.</p>
                         Check out Bimo's Story
         </div>
         

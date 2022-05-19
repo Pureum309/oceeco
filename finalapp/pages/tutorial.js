@@ -13,7 +13,7 @@ export default function tutorial() {
       <div className={styles.main}>
 
         <h2 className={styles.heading}>
-            Tutorials
+            Tutorial
         </h2>
 
         <div className={styles.grid}>

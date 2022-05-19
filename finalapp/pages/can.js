@@ -30,7 +30,7 @@ export default function AboutCan() {
                 like to prepare to land on the moon as a plan B. 
                 
                 <br></br><br></br>
-                My role in the team is often the devil's advocate. I contribute in both coding 
+                My role in the team is often the devil&apos;s advocate. I contribute in both coding 
                 and design aspects.
                 </p>
 

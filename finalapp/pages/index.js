@@ -29,7 +29,7 @@ export default function Home() {
           onClick={
             ()=>r.push("/mainpage")
           }>
-            Let's Go
+            Let&apos;s Go
           </div>
           <div className={styles.buttonintro}
           onClick={

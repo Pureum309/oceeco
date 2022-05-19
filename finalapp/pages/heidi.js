@@ -24,7 +24,7 @@ export default function AboutHeidi() {
                 
             <div className={styles.mainpage_content}>
                     <p className={styles.para1}>
-                    Hello, This is Heidi. I'm a quiet person who frequently initiates 
+                    Hello, This is Heidi. I am a quiet person who frequently initiates 
                 discussions with a question. I get the pleasure of doing research; 
                 I spend a lot of time looking for new ideas. 
                     

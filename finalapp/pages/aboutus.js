@@ -73,6 +73,12 @@ export default function aboutUs() {
                 <h3 className={styles.aboutname}>Heidi</h3>
                 <span className={styles.shadowx}></span>
             </div>
+
+            <div className={styles.backbutton}>
+                <button onClick={
+                    ()=> history.back()
+                }>Back</button>
+            </div>
         </div>
     </div>
     </div>

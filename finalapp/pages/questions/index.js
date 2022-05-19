@@ -41,6 +41,7 @@ export default function Questions() {
       {/* Start from Heare Sarah */}
         <Options
           q={qs[qnum].title}
+          bar={qs[qnum].progress}
           img={qs[qnum].options[opt].pics}
           desc={qs[qnum].options[opt].txts}
           background={qs[qnum].background}

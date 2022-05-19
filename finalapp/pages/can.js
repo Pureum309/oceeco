@@ -13,7 +13,7 @@ export default function AboutCan() {
         <main className={styles.main}>
         <div className={styles.grid}>
                 <Image 
-                    src="/imgs/about/can.png" 
+                    src="/imgs/about/can1.png" 
                     alt="Can Sanchez"
                     width={250}
                     height={250}

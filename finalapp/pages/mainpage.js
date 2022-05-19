@@ -64,13 +64,15 @@ export default function mainpage() {
                             <p className={styles.parabuttons}>Collect the plastics in the ocean and recycle them. Try to beat your highest score!</p>
                         Play Recycling Game
                     </div>
-                    <div className={styles.mainpagebuttonlink}>
-                        <a href="https://plasticbank.com/" target="_blank">
+                    <div className={styles.mainpagebuttonlink}
+                    onClick={
+                        () => r.push("/pb")}>
+                        {/* <a href="https://plasticbank.com/" target="_blank"> */}
                         <img 
                             className={styles.animatedbuttons}
                             src="./imgs/buttons/plasticbank.png" />
                             <p className={styles.parabuttons}>Become an ocean steward.</p>
-                            </a>Visit Plastic Bank
+                            Visit Plastic Bank
                     </div>
 
                     <div className={styles.backbutton}>

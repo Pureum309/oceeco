@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 
-export default function aboutCan() {
+export default function AboutCan() {
     const r = useRouter();
 
     return (

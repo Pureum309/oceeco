@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function aboutCan() {
+export default function AboutKaycee() {
     const r = useRouter();
 
     return (

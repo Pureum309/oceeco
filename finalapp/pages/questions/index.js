@@ -1,7 +1,7 @@
 import {useRouter} from "next/router";
 import styles from '../../styles/Home.module.css';
 
-import Options from '../../comps/Questions/options';
+import Options from '../../comps/questions/options';
 import {GetName, qs} from "../../data/que_content";
 
 

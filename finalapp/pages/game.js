@@ -15,7 +15,7 @@ export default function Home() {
     <div className={styles.container}>
        <Head />
        <h2 className={styles.heading}
-                >Recycling Game</h2>
+                >Enjoy the recycling game</h2>
         <div className={styles.iframe}>
             <iframe src="https://cansanchez.ca/recyclinggame/" />
         </div>

@@ -15,7 +15,9 @@ export default function Home() {
     <div className={styles.container}>
        <Head />
        <h2 className={styles.heading}
-                >Bimo's Story</h2>
+                >Learn about how to reduce, reuse and recycle plastic </h2>
+        
+                
         <div className={styles.iframe}>
             <iframe src="https://cansanchez.ca/bimostory/" />
         </div>

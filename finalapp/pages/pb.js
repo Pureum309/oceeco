@@ -27,7 +27,7 @@ export default function TutorialVideo() {
           </p>
         </div>
         
-        <a href="https://plasticbank.com/">
+        <a href="https://plasticbank.com/" target="_blank">
             <div className={styles.buttonintro}>
                 Go to Plastic Bank
             </div>

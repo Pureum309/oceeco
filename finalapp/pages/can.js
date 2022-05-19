@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 
-export default function aboutCan() {
+export default function AboutCan() {
     const r = useRouter();
 
     return (
@@ -30,7 +30,7 @@ export default function aboutCan() {
                 like to prepare to land on the moon as a plan B. 
                 
                 <br></br><br></br>
-                My role in the team is often the devil's advocate. I contribute in both coding 
+                My role in the team is often the devil&apos;s advocate. I contribute in both coding 
                 and design aspects.
                 </p>
 

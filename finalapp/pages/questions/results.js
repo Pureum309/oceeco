@@ -20,7 +20,7 @@ export default function Qresults(){
         <div className={styles.grid}>
             <img className={styles.mainlogo} src="./../../imgs/results/result__bottle_nemo.png" />
             
-            <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}'s stomach</h3>
+            <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}&apos;s stomach</h3>
             <p className={styles.resultsdesc}>
             Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
             </p>
@@ -54,7 +54,7 @@ export default function Qresults(){
             Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
             <br></br>
             <br></br>
-            They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
+            They think they&apos;re full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
             </p>
         </div>
     }
@@ -64,7 +64,7 @@ export default function Qresults(){
         <div className={styles.grid}>
             <img className={styles.mainlogo} src="./../../imgs/results/result__bottle_turtle.png" />
             
-            <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}'s stomach</h3>
+            <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}&apos;s stomach</h3>
             
             <p className={styles.resultsdesc}>
             Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
@@ -100,7 +100,7 @@ export default function Qresults(){
             Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
             <br></br>
             <br></br>
-            They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
+            They think they&apos;re full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
             </p>
         </div>
     }
@@ -112,7 +112,7 @@ export default function Qresults(){
         <div className={styles.grid}>
             <img className={styles.mainlogo} src="./../../imgs/results/result__bottle_shark.png" />
             
-            <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}'s stomach</h3>
+            <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}&apos;s stomach</h3>
             
             <p className={styles.resultsdesc}>
             Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
@@ -147,7 +147,7 @@ export default function Qresults(){
                 Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
                 <br></br>
                 <br></br>
-                They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
+                They think they&apos;re full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
             </p>
         </div>
     }
@@ -157,7 +157,7 @@ export default function Qresults(){
         <div className={styles.grid}>
             <img className={styles.mainlogo} src="./../../imgs/results/result__bottle_dolphin.png" />
             
-            <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}'s stomach</h3>
+            <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}&apos;s stomach</h3>
             
             <p className={styles.resultsdesc}>
             Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
@@ -192,7 +192,7 @@ export default function Qresults(){
                 Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
                 <br></br>
                 <br></br>
-                They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
+                They think they&apos;re full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
             </p>
         </div>
     }
@@ -203,7 +203,7 @@ export default function Qresults(){
         <div className={styles.grid}>
             <img className={styles.mainlogo} src="./../../imgs/results/result_bottle_penguin.png" />
             
-            <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}'s stomach</h3>
+            <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}&apos;s stomach</h3>
             
             <p className={styles.resultsdesc}>
             Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
@@ -238,7 +238,7 @@ export default function Qresults(){
                 Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
                 <br></br>
                 <br></br>
-                They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
+                They think they&apos;re full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
             </p>
         </div>
     }
@@ -249,7 +249,7 @@ export default function Qresults(){
         <div className={styles.grid}>
             <img className={styles.mainlogo} src="./../../imgs/results/result_bottle_polar.png" />
             
-            <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}'s stomach</h3>
+            <h3 className={styles.heading}>{an[2]}s poke the insides of a {an[1]}&apos;s stomach</h3>
             
             <p className={styles.resultsdesc}>
             Swallowing plastics like bottle caps can hurt the <span className={styles.lcase}>{an[1]}</span> by poking some of their internal organs and not allow them to breathe.
@@ -285,7 +285,7 @@ export default function Qresults(){
                     Floating plastics like straws easily get cut into small pieces. These might be eaten by the <span className={styles.lcase}>{an[1]}</span>.
                     <br></br>
                     <br></br>
-                    They think they're full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
+                    They think they&apos;re full from eating plastic so they do not get to eat real food then they starve or get hurt inside.
                 </p>
             </div>
         </div>
@@ -299,8 +299,8 @@ export default function Qresults(){
                     <img 
                         className={styles.animatedbuttons}
                         src="/imgs/buttons/bimostory.png" />
-                        <p className={styles.parabuttons}>Learn from Bimo's story on how to reduce, reuse and recycle plastic.</p>
-                        Check out Bimo's Story
+                        <p className={styles.parabuttons}>Learn from Bimo&apos;s story on how to reduce, reuse and recycle plastic.</p>
+                        Check out Bimo&apos;s Story
         </div>
         
         <div className={styles.backbutton}>

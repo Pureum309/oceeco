@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function aboutCan() {
+export default function AboutKaycee() {
     const r = useRouter();
 
     return (
@@ -26,10 +26,10 @@ export default function aboutCan() {
                     <p className={styles.para1}>
                 This is KCWIN - a Saigon-based graphic designer who has been 
                 in a complex-long-term relationship with deadlines and coffee. 
-                I'm confident in spending days finding inspiration and writing messy codes.
+                I&apos;m confident in spending days finding inspiration and writing messy codes.
                     
                 <br></br><br></br>
-                Aside from designing graphics, my role as an exemplary teammate is also not to ruin others' codes.
+                Aside from designing graphics, my role as an exemplary teammate is also not to ruin others&apos; codes.
 
                 </p>
 

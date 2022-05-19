@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function aboutCan() {
+export default function AboutHeidi() {
     const r = useRouter();
 
     return (
@@ -24,7 +24,7 @@ export default function aboutCan() {
                 
             <div className={styles.mainpage_content}>
                     <p className={styles.para1}>
-                    Hello, This is Heidi. I'm a quiet person who frequently initiates 
+                    Hello, This is Heidi. I&apos;m a quiet person who frequently initiates 
                 discussions with a question. I get the pleasure of doing research; 
                 I spend a lot of time looking for new ideas. 
                     

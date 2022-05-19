@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function mainpage() {
+export default function MainPage() {
     
     const r = useRouter();
 
@@ -23,7 +23,7 @@ export default function mainpage() {
                 <div className={styles.mainpage_content}>
                     <p className={styles.para1}>
                         We love ice cream cups and balloons, but did you know that
-                        if we don't throw them away properly that it can hurt our
+                        if we don&apos;t throw them away properly that it can hurt our
                         ocean and the animals in it?
                         <br></br>
                         <br></br>
@@ -41,7 +41,7 @@ export default function mainpage() {
                     className={styles.animatedbuttons}
                     src="./imgs/buttons/quiz.png" />
                         <p className={styles.parabuttons}>Find out how plastics affect the animals in the ocean.</p>
-                        Let's take a Quiz
+                        Let&apos;s take a Quiz
                     </div>
 
                     <div className={styles.mainpagebuttonlink}
@@ -52,7 +52,7 @@ export default function mainpage() {
                         className={styles.animatedbuttons}
                         src="./imgs/buttons/bimostory.png" />
                         <p className={styles.parabuttons}>Help Bimo clean the ocean and save their friends!</p>
-                        Check out Bimo's Story
+                        Check out Bimo&apos;s Story
                     </div>
                     <div className={styles.mainpagebuttonlink}
                         onClick={

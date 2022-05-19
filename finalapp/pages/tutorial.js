@@ -19,7 +19,7 @@ export default function TutoVideo() {
         <div className={styles.grid}>
 
           <video autoPlay loop className={styles.video}>         
-              <source src="/tutorial_quiz.mp4" type="video/mp4"/>       
+              <source src="/quiz_tutorial.mp4" type="video/mp4"/>       
           </video>
 
           <div className={styles.vbackbutton}>

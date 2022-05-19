@@ -12,7 +12,7 @@ export default function AboutKaycee() {
         <main className={styles.main}>
         <div className={styles.grid}>
                 <Image 
-                    src="/imgs/about/kc.png" 
+                    src="/imgs/about/kc1.png" 
                     alt="KC Jellyfish"
                     width={250}
                     height={250}
